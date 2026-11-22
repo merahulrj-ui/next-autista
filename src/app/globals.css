@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #0f172a;
+  --primary-light: #1e293b;
+  --accent: #d4af37;
+  --accent-hover: #b8972e;
+  --accent-gold: #c59b27;
+  --bg-cream: #faf9f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #1e293b;
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  top: 0px !important;
+}
+
+/* Hide Google Translate header bar to preserve clean luxury navbar */
+.goog-te-banner-frame.skiptranslate,
+.goog-te-gadget-icon,
+.goog-te-gadget-simple img,
+.skiptranslate:not(.goog-te-combo) {
+  display: none !important;
+}
+
+#google_translate_element {
+  display: none !important;
+}
+

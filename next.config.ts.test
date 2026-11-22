@@ -1,0 +1,10 @@
+
+const nextConfig = {
+  output: 'export',
+  async rewrites() {
+    return [
+      { source: '/:path*.html', destination: '/:path*' }
+    ];
+  }
+};
+export default nextConfig;
