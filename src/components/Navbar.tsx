@@ -74,51 +74,51 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Nav Links */}
-        <nav className="hidden lg:flex items-center gap-5 text-sm font-medium text-slate-700">
-          <Link href="/" className="hover:text-amber-600 transition-colors">
+        <nav className="hidden lg:flex items-center gap-3.5 xl:gap-6 text-[13px] xl:text-sm font-medium text-slate-700 whitespace-nowrap">
+          <Link href="/" className="hover:text-amber-600 transition-colors whitespace-nowrap">
             Home
           </Link>
           <Link
             href="/hiring-private-driver-in-india-cost-guide"
-            className="hover:text-amber-600 transition-colors"
+            className="hover:text-amber-600 transition-colors whitespace-nowrap"
           >
-            My blog
+            Blog
           </Link>
           <Link
             href="/rajasthan-tour-package"
-            className="hover:text-amber-600 transition-colors"
+            className="hover:text-amber-600 transition-colors whitespace-nowrap"
           >
-            Rajasthan tour packages
+            Rajasthan Tours
           </Link>
           <Link
             href="/golden-triangle-tour-package"
-            className="hover:text-amber-600 transition-colors"
+            className="hover:text-amber-600 transition-colors whitespace-nowrap"
           >
-            Golden triangle tour package
+            Golden Triangle
           </Link>
           <Link
             href="/tour-packages"
-            className="hover:text-amber-600 transition-colors"
+            className="hover:text-amber-600 transition-colors whitespace-nowrap"
           >
             All Packages
           </Link>
           <Link
             href="/jaipur"
-            className="hover:text-amber-600 transition-colors"
+            className="hover:text-amber-600 transition-colors whitespace-nowrap"
           >
             Destinations
           </Link>
           <Link
             href="/about-us"
-            className="hover:text-amber-600 transition-colors"
+            className="hover:text-amber-600 transition-colors whitespace-nowrap"
           >
             About Us
           </Link>
           <Link
             href="/contact"
-            className="hover:text-amber-600 transition-colors"
+            className="hover:text-amber-600 transition-colors whitespace-nowrap"
           >
-            Contact Us
+            Contact
           </Link>
         </nav>
 
@@ -162,21 +162,21 @@ export default function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
               className="py-1 hover:text-amber-600"
             >
-              My blog
+              Blog
             </Link>
             <Link
               href="/rajasthan-tour-package"
               onClick={() => setMobileMenuOpen(false)}
               className="py-1 hover:text-amber-600 text-amber-700 font-bold"
             >
-              Rajasthan tour packages
+              Rajasthan Tours
             </Link>
             <Link
               href="/golden-triangle-tour-package"
               onClick={() => setMobileMenuOpen(false)}
               className="py-1 hover:text-amber-600 text-amber-700 font-bold"
             >
-              Golden triangle tour package
+              Golden Triangle
             </Link>
             <Link
               href="/tour-packages"
@@ -204,7 +204,7 @@ export default function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
               className="py-1 hover:text-amber-600"
             >
-              Contact Us
+              Contact
             </Link>
           </nav>
           <div className="pt-4 border-t border-slate-100 flex flex-col gap-2.5">
