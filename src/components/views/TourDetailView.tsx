@@ -19,14 +19,12 @@ import {
 } from "lucide-react";
 import { Tour } from "@/data/tours";
 import InquiryForm from "@/components/InquiryForm";
-import { useCurrency } from "@/context/CurrencyContext";
 
 interface TourDetailViewProps {
   tour: Tour;
 }
 
 export default function TourDetailView({ tour }: TourDetailViewProps) {
-  const { currency, formatPrice } = useCurrency();
   const whatsappUrl = `https://wa.me/919990648881?text=Hello,%20I%20would%20like%20information%20and%20a%20quote%20for%20the%20tour:%20${encodeURIComponent(
     tour.title
   )}%20(${tour.duration})`;
@@ -141,12 +139,12 @@ export default function TourDetailView({ tour }: TourDetailViewProps) {
           <div className="flex flex-wrap items-center gap-6 p-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/15 max-w-3xl">
             <div>
               <span className="text-[11px] text-slate-400 uppercase block font-semibold">
-                Price per vehicle from
+                Private Vehicle &amp; Dedicated Chauffeur
               </span>
-              <span key={currency} className="text-3xl font-serif font-extrabold text-amber-400 notranslate" translate="no">
-                {formatPrice(tour.priceEUR)}
+              <span className="text-2xl font-serif font-extrabold text-amber-400">
+                Custom Tailor-Made Itinerary
               </span>
-              <span className="text-xs text-slate-300 ml-2">({tour.priceNote})</span>
+              <span className="text-xs text-slate-300 ml-2 block sm:inline">(All fuel, tolls, permits &amp; chauffeur stay included)</span>
             </div>
 
             <div className="h-8 w-px bg-white/20 hidden sm:block" />

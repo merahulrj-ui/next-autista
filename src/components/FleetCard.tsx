@@ -5,10 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Users, Car } from "lucide-react";
 import { Vehicle } from "@/data/fleet";
-import { useCurrency } from "@/context/CurrencyContext";
 
 export default function FleetCard({ vehicle }: { vehicle: Vehicle }) {
-  const { currency, formatPrice } = useCurrency();
 
   return (
     <div className="bg-white rounded-3xl overflow-hidden border border-slate-200/90 shadow-sm hover:shadow-xl transition-all duration-300 p-6 flex flex-col justify-between group hover:-translate-y-1">
@@ -45,14 +43,8 @@ export default function FleetCard({ vehicle }: { vehicle: Vehicle }) {
 
       <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
         <div>
-          <span className="text-[10px] text-slate-400 block uppercase font-semibold">Average Daily Fare</span>
-          <div className="flex items-baseline gap-1 text-2xl font-serif font-bold text-slate-900">
-            <span className="text-sm font-sans font-medium text-slate-500">from</span>
-            <span key={currency} className="notranslate" translate="no">
-              {formatPrice(vehicle.dayRateEUR)}
-            </span>
-            <span className="text-xs font-normal text-slate-500">/ day</span>
-          </div>
+          <span className="text-[10px] text-slate-400 block uppercase font-semibold">Chauffeur Service</span>
+          <span className="text-sm font-semibold text-amber-700">All-Inclusive Quote</span>
         </div>
         <Link
           href="/toyota-innova-crysta-rental-india-private-driver"

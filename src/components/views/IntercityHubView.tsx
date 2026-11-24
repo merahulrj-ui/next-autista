@@ -15,10 +15,8 @@ import {
 } from "lucide-react";
 import { INTERCITY_ROUTES } from "@/data/intercity";
 import InquiryForm from "@/components/InquiryForm";
-import { useCurrency } from "@/context/CurrencyContext";
 
 export default function IntercityHubView() {
-  const { currency, formatPrice } = useCurrency();
   const whatsappUrl =
     "https://wa.me/919990648881?text=Hello,%20I%20would%20like%20to%20book%20an%20intercity%20private%20car%20transfer.";
 
@@ -141,20 +139,20 @@ export default function IntercityHubView() {
                     </div>
                   </div>
 
-                  {/* Pricing table */}
+                  {/* Vehicle options */}
                   <div className="pt-4 border-t border-slate-100">
                     <div className="grid grid-cols-3 gap-2 text-center text-xs mb-4">
                       <div className="p-2 rounded-xl bg-slate-50 border border-slate-200">
                         <span className="text-[10px] text-slate-500 block">Sedan</span>
-                        <span key={currency} className="font-bold text-slate-900 text-sm notranslate" translate="no">{formatPrice(route.priceSedanEUR)}</span>
+                        <span className="font-semibold text-slate-900 text-xs">1-3 Pax</span>
                       </div>
                       <div className="p-2 rounded-xl bg-amber-50 border border-amber-200">
                         <span className="text-[10px] text-amber-700 block font-semibold">Innova SUV</span>
-                        <span key={currency} className="font-bold text-amber-900 text-sm notranslate" translate="no">{formatPrice(route.priceSuvEUR)}</span>
+                        <span className="font-semibold text-amber-900 text-xs">1-5 Pax</span>
                       </div>
                       <div className="p-2 rounded-xl bg-slate-50 border border-slate-200">
                         <span className="text-[10px] text-slate-500 block">Minivan</span>
-                        <span key={currency} className="font-bold text-slate-900 text-sm notranslate" translate="no">{formatPrice(route.priceVanEUR)}</span>
+                        <span className="font-semibold text-slate-900 text-xs">6-10 Pax</span>
                       </div>
                     </div>
 

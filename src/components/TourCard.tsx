@@ -5,14 +5,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { Clock, Star, MapPin, MessageCircle, ChevronRight, Check } from "lucide-react";
 import { Tour } from "@/data/tours";
-import { useCurrency } from "@/context/CurrencyContext";
 
 interface TourCardProps {
   tour: Tour;
 }
 
 export default function TourCard({ tour }: TourCardProps) {
-  const { currency, formatPrice } = useCurrency();
   const whatsappBookingUrl = `https://wa.me/919990648881?text=Hello,%20I%20would%20like%20information%20and%20a%20quote%20for%20the%20tour:%20${encodeURIComponent(
     tour.title
   )}%20(${tour.duration})`;
@@ -76,20 +74,17 @@ export default function TourCard({ tour }: TourCardProps) {
 
         {/* Price & Action Buttons */}
         <div className="pt-4 border-t border-slate-100">
-          <div className="flex items-baseline justify-between mb-4">
+          <div className="flex items-center justify-between mb-4">
             <div>
               <span className="text-[11px] text-slate-400 uppercase font-semibold block">
-                Price per vehicle
+                Private Vehicle &amp; Driver
               </span>
-              <div className="flex items-baseline gap-1 text-2xl font-serif font-extrabold text-slate-900">
-                <span className="text-sm font-sans font-medium text-slate-500">from</span>
-                <span key={currency} className="notranslate" translate="no">
-                  {formatPrice(tour.priceEUR)}
-                </span>
-              </div>
+              <span className="text-sm font-semibold text-amber-700">
+                Custom Tailor-Made Quote
+              </span>
             </div>
-            <span className="text-[11px] text-emerald-600 font-medium bg-emerald-50 px-2 py-1 rounded-md">
-              All Inclusive
+            <span className="text-[11px] text-emerald-700 font-semibold bg-emerald-50 border border-emerald-200/60 px-2 py-1 rounded-md">
+              Best Rate Guarantee
             </span>
           </div>
 

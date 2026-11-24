@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Phone, MessageCircle, Menu, X, Shield, Star, Car } from "lucide-react";
-import CurrencySwitcher from "@/components/CurrencySwitcher";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -29,7 +28,6 @@ export default function Navbar() {
             </span>
           </div>
           <div className="flex items-center gap-2.5 sm:gap-4">
-            <CurrencySwitcher />
             <a
               href="tel:+919990648881"
               className="hidden sm:flex items-center gap-1.5 text-slate-300 hover:text-amber-300 transition-colors"

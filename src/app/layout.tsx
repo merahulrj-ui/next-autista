@@ -8,24 +8,26 @@ import { CurrencyProvider } from "@/context/CurrencyContext";
 export const metadata: Metadata = {
   metadataBase: new URL("https://autistaprivatoindia.it"),
   title: {
-    default: "Private Driver India | Luxury Car Rental with Chauffeur in Rajasthan",
-    template: "%s | Private Driver India",
+    default: "Private Driver India | Hire Car with Chauffeur for Rajasthan & Golden Triangle Tours",
+    template: "%s | Autista Privato India",
   },
   description:
-    "Official private driver and chauffeured car rental service in India for international travelers. Custom tours in Rajasthan, Golden Triangle, Agra, Varanasi. All-inclusive rates & 24/7 dedicated assistance.",
+    "Hire a licensed English-speaking private driver in India. Certified chauffeured car rental for Rajasthan, Golden Triangle, Agra, Varanasi, and Himalayas with 100% transparent pricing & 24/7 WhatsApp concierge.",
   keywords: [
     "private driver india",
-    "chauffeured car rental india",
+    "hire driver in india",
+    "car rental with driver india",
     "rajasthan tour with private driver",
-    "golden triangle tour car",
+    "hire car and driver rajasthan",
+    "golden triangle tour with private driver",
     "private driver india cost",
-    "toyota innova crysta india rental",
-    "reliable chauffeur north india",
-    "custom india tour"
+    "innova crysta rental with driver india",
+    "chauffeur service north india",
+    "delhi agra jaipur private car driver"
   ],
-  authors: [{ name: "Private Driver India" }],
-  creator: "Private Driver India",
-  publisher: "Private Driver India",
+  authors: [{ name: "Autista Privato India" }],
+  creator: "Autista Privato India",
+  publisher: "Autista Privato India",
   icons: {
     icon: "/favicon.png",
     apple: "/favicon.png",
@@ -34,16 +36,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://autistaprivatoindia.it",
-    siteName: "Private Driver India",
-    title: "Private Driver India | Tailor-Made Tours & Private Chauffeur Services in India",
+    siteName: "Autista Privato India",
+    title: "Private Driver India | Hire Car with Chauffeur for Rajasthan & Golden Triangle Tours",
     description:
-      "Explore North India in complete comfort and peace of mind with a private air-conditioned vehicle and vetted English-speaking chauffeur. 24/7 concierge support.",
+      "Explore North India in complete comfort with a private air-conditioned vehicle and vetted English-speaking chauffeur. Custom tours in Rajasthan and the Golden Triangle.",
     images: [
       {
-        url: "/images/tour/jaipur.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Private Driver India - Rajasthan & Golden Triangle Tours",
+        url: "/images/brand-logo.jpg",
+        width: 800,
+        height: 800,
+        alt: "Autista Privato India - Private Driver in India",
       },
     ],
   },
@@ -60,6 +62,63 @@ export const metadata: Metadata = {
   },
 };
 
+const agencySchema = {
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  name: "Autista Privato India",
+  alternateName: "Private Driver India",
+  url: "https://autistaprivatoindia.it",
+  logo: "https://autistaprivatoindia.it/images/brand-logo.jpg",
+  image: "https://autistaprivatoindia.it/images/brand-logo.jpg",
+  description:
+    "Premier private chauffeur and car rental service in India for international travelers. Certified English-speaking drivers for Rajasthan, Golden Triangle, Agra, Varanasi, and North India tours.",
+  telephone: "+919990648881",
+  priceRange: "$$",
+  currenciesAccepted: "EUR, USD, GBP, INR",
+  paymentAccepted: "Cash, Credit Card, Bank Transfer, PayPal",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Connaught Place",
+    addressLocality: "New Delhi",
+    addressRegion: "Delhi",
+    postalCode: "110001",
+    addressCountry: "IN",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: "28.6315",
+    longitude: "77.2167",
+  },
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday",
+    ],
+    opens: "00:00",
+    closes: "23:59",
+  },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.96",
+    reviewCount: "348",
+    bestRating: "5",
+    worstRating: "1",
+  },
+  areaServed: [
+    { "@type": "AdministrativeArea", name: "Rajasthan" },
+    { "@type": "AdministrativeArea", name: "Delhi" },
+    { "@type": "AdministrativeArea", name: "Uttar Pradesh" },
+    { "@type": "AdministrativeArea", name: "Himachal Pradesh" },
+    { "@type": "AdministrativeArea", name: "Uttarakhand" },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -69,6 +128,10 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(agencySchema) }}
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
