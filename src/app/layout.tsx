@@ -3,7 +3,6 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppFloating from "@/components/WhatsAppFloating";
-import { CurrencyProvider } from "@/context/CurrencyContext";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://autistaprivatoindia.it"),
@@ -147,12 +146,10 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen flex flex-col bg-slate-50 text-slate-800 antialiased selection:bg-amber-500 selection:text-white">
-        <CurrencyProvider>
-          <Navbar />
-          <main className="flex-grow">{children}</main>
-          <Footer />
-          <WhatsAppFloating />
-        </CurrencyProvider>
+        <Navbar />
+        <main className="flex-grow">{children}</main>
+        <Footer />
+        <WhatsAppFloating />
       </body>
     </html>
   );

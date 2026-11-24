@@ -59,7 +59,7 @@ export function AboutUsView() {
                 <strong>Zero Commission Shopping Traps:</strong> Our chauffeurs have strict instructions never to divert guests to high-pressure souvenir emporiums or commercial tourist stores. Your holiday time and freedom are sacred.
               </li>
               <li>
-                <strong>Total Price Transparency:</strong> Every quote we issue includes fuel, highway tolls, state border transit permits, and driver lodging. You never pay unexpected surcharges along the road.
+                <strong>Total Quote Transparency:</strong> Every custom quote we issue includes fuel, highway tolls, state border transit permits, and driver lodging. You never pay unexpected surcharges along the road.
               </li>
               <li>
                 <strong>24/7 Dedicated Concierge Support:</strong> Before departure and throughout your trip, our English-speaking coordination team is available on WhatsApp to answer questions, accommodate schedule adjustments, and ensure complete peace of mind.

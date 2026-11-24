@@ -8,7 +8,7 @@ import TourCard from "@/components/TourCard";
 export const metadata: Metadata = {
   title: "All India Private Chauffeur Tour Packages | Golden Triangle & Rajasthan",
   description:
-    "Explore our 23 exclusive private road tour itineraries across Rajasthan, the Golden Triangle, Varanasi, and the Thar Desert. All-inclusive luxury vehicle and dedicated licensed chauffeur rates.",
+    "Explore our 30 exclusive private road tour itineraries across Rajasthan, the Golden Triangle, Varanasi, and the Thar Desert. All-inclusive luxury vehicle and dedicated licensed chauffeur service.",
   alternates: {
     canonical: "https://autistaprivatoindia.it/tour-packages.html",
   },

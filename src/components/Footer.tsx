@@ -42,7 +42,7 @@ export default function Footer() {
               <HeartHandshake className="w-6 h-6" />
             </div>
             <div>
-              <h4 className="text-white font-semibold text-sm mb-1">Transparent Prices</h4>
+              <h4 className="text-white font-semibold text-sm mb-1">Transparent Quotes</h4>
               <p className="text-xs text-slate-400 leading-relaxed">
                 Fuel, tolls, state border permits, and driver accommodation are always 100% included.
               </p>

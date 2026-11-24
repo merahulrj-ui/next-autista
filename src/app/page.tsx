@@ -117,7 +117,7 @@ export default function HomePage() {
             <div className="flex flex-wrap gap-y-2 gap-x-4 text-xs text-slate-200 pt-2 font-medium">
               <span className="flex items-center gap-1.5 bg-slate-900/60 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-amber-200/20 shadow-sm">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                Guaranteed All-Inclusive Rates
+                All-Inclusive Chauffeur Service
               </span>
               <span className="flex items-center gap-1.5 bg-slate-900/60 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-amber-200/20 shadow-sm">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400" />
@@ -234,7 +234,7 @@ export default function HomePage() {
                 <CheckCircle2 className="w-6 h-6" />
               </div>
               <div>
-                <h4 className="font-bold text-sm text-slate-900">Guaranteed Fixed Rates</h4>
+                <h4 className="font-bold text-sm text-slate-900">All-Inclusive Tour Packages</h4>
                 <p className="text-xs text-slate-500">Fuel, tolls, parking, and state taxes 100% included</p>
               </div>
             </div>
@@ -298,7 +298,7 @@ export default function HomePage() {
             <div className="space-y-3.5 pt-2 text-xs text-slate-700 font-medium">
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-                <span>Detailed itinerary and transparent quote within 30 minutes with guaranteed all-inclusive rates.</span>
+                <span>Detailed itinerary and custom quote within 30 minutes with all inclusions covered.</span>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />

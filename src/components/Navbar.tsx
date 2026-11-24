@@ -24,7 +24,7 @@ export default function Navbar() {
             <span className="hidden md:inline text-slate-600">|</span>
             <span className="hidden md:flex items-center gap-1.5 text-slate-300 font-normal">
               <Shield className="w-3.5 h-3.5 text-amber-400" />
-              100% Certified Drivers &amp; Guaranteed Fixed Rates
+              100% Certified Drivers &amp; Dedicated Concierge Support
             </span>
           </div>
           <div className="flex items-center gap-2.5 sm:gap-4">
