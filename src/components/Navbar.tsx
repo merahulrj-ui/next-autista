@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, MessageCircle, Menu, X, Shield, Star, Car } from "lucide-react";
 import CurrencySwitcher from "@/components/CurrencySwitcher";
 
@@ -53,12 +54,18 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-8 h-20 flex items-center justify-between">
         {/* Brand Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-amber-500 via-amber-600 to-amber-700 flex items-center justify-center text-white shadow-md shadow-amber-600/20 border border-amber-300/40 group-hover:scale-105 transition-transform">
-            <Car className="w-5 h-5" />
+          <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-[#0b1329] to-[#162044] p-0.5 flex items-center justify-center text-white shadow-md shadow-amber-600/20 border border-amber-400/30 group-hover:scale-105 transition-transform overflow-hidden relative">
+            <Image
+              src="/images/brand-logo.jpg"
+              alt="Autista Privato India Logo"
+              width={44}
+              height={44}
+              className="w-full h-full object-cover rounded-[14px]"
+            />
           </div>
           <div>
             <span className="text-xl sm:text-2xl font-serif font-bold text-slate-900 tracking-tight block leading-tight">
-              Private Driver <span className="text-amber-600 italic">India</span>
+              Autista Privato <span className="text-amber-600 italic">India</span>
             </span>
             <span className="text-[10px] font-sans font-semibold text-slate-400 uppercase tracking-widest block">
               Exclusive Tours &middot; Rajasthan &amp; Golden Triangle
@@ -67,51 +74,51 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Nav Links */}
-        <nav className="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-700">
+        <nav className="hidden lg:flex items-center gap-5 text-sm font-medium text-slate-700">
           <Link href="/" className="hover:text-amber-600 transition-colors">
             Home
-          </Link>
-          <Link
-            href="/tour-packages"
-            className="hover:text-amber-600 transition-colors"
-          >
-            All Tours
-          </Link>
-          <Link
-            href="/golden-triangle-tour-package"
-            className="hover:text-amber-600 transition-colors"
-          >
-            Golden Triangle
-          </Link>
-          <Link
-            href="/rajasthan-tour-package"
-            className="hover:text-amber-600 transition-colors"
-          >
-            Rajasthan
-          </Link>
-          <Link
-            href="/india-intercity-car-transfer-private-driver"
-            className="hover:text-amber-600 transition-colors"
-          >
-            Car Transfers
-          </Link>
-          <Link
-            href="/toyota-innova-crysta-rental-india-private-driver"
-            className="hover:text-amber-600 transition-colors"
-          >
-            Fleet
           </Link>
           <Link
             href="/hiring-private-driver-in-india-cost-guide"
             className="hover:text-amber-600 transition-colors"
           >
-            Cost Guide
+            My blog
+          </Link>
+          <Link
+            href="/rajasthan-tour-package"
+            className="hover:text-amber-600 transition-colors"
+          >
+            Rajasthan tour packages
+          </Link>
+          <Link
+            href="/golden-triangle-tour-package"
+            className="hover:text-amber-600 transition-colors"
+          >
+            Golden triangle tour package
+          </Link>
+          <Link
+            href="/tour-packages"
+            className="hover:text-amber-600 transition-colors"
+          >
+            All Packages
+          </Link>
+          <Link
+            href="/jaipur"
+            className="hover:text-amber-600 transition-colors"
+          >
+            Destinations
+          </Link>
+          <Link
+            href="/about-us"
+            className="hover:text-amber-600 transition-colors"
+          >
+            About Us
           </Link>
           <Link
             href="/contact"
             className="hover:text-amber-600 transition-colors"
           >
-            Contacts
+            Contact Us
           </Link>
         </nav>
 
@@ -151,46 +158,39 @@ export default function Navbar() {
               Home
             </Link>
             <Link
-              href="/tour-packages"
-              onClick={() => setMobileMenuOpen(false)}
-              className="py-1 hover:text-amber-600"
-            >
-              All Tours (23 Itineraries)
-            </Link>
-            <Link
-              href="/golden-triangle-tour-package"
-              onClick={() => setMobileMenuOpen(false)}
-              className="py-1 hover:text-amber-600"
-            >
-              Classic Golden Triangle Tour
-            </Link>
-            <Link
-              href="/rajasthan-tour-package"
-              onClick={() => setMobileMenuOpen(false)}
-              className="py-1 hover:text-amber-600"
-            >
-              Rajasthan Grand Tour (14 Days)
-            </Link>
-            <Link
-              href="/india-intercity-car-transfer-private-driver"
-              onClick={() => setMobileMenuOpen(false)}
-              className="py-1 hover:text-amber-600"
-            >
-              Intercity Car Transfers
-            </Link>
-            <Link
-              href="/toyota-innova-crysta-rental-india-private-driver"
-              onClick={() => setMobileMenuOpen(false)}
-              className="py-1 hover:text-amber-600"
-            >
-              Our Vehicle Fleet
-            </Link>
-            <Link
               href="/hiring-private-driver-in-india-cost-guide"
               onClick={() => setMobileMenuOpen(false)}
               className="py-1 hover:text-amber-600"
             >
-              Driver Cost Guide (2026)
+              My blog
+            </Link>
+            <Link
+              href="/rajasthan-tour-package"
+              onClick={() => setMobileMenuOpen(false)}
+              className="py-1 hover:text-amber-600 text-amber-700 font-bold"
+            >
+              Rajasthan tour packages
+            </Link>
+            <Link
+              href="/golden-triangle-tour-package"
+              onClick={() => setMobileMenuOpen(false)}
+              className="py-1 hover:text-amber-600 text-amber-700 font-bold"
+            >
+              Golden triangle tour package
+            </Link>
+            <Link
+              href="/tour-packages"
+              onClick={() => setMobileMenuOpen(false)}
+              className="py-1 hover:text-amber-600"
+            >
+              All Packages
+            </Link>
+            <Link
+              href="/jaipur"
+              onClick={() => setMobileMenuOpen(false)}
+              className="py-1 hover:text-amber-600"
+            >
+              Destinations
             </Link>
             <Link
               href="/about-us"
