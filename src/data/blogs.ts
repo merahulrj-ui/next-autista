@@ -38,18 +38,18 @@ Hiring a private vehicle with an experienced, licensed chauffeur offers the safe
 
 ### Average Daily Fares in 2026
 
-Car rental with driver rates in India depend on vehicle category, passenger count, and tour duration:
+Car rental with driver rates in India depend on your preferred vehicle category, passenger count, and travel route:
 
 1. **Comfort Sedan (Toyota Etios / Maruti Suzuki Dzire)**:
-   - **Average Daily Rate**: Approx. **$48 – $58 / €45 – €55 per day** (for the whole vehicle, capacity 1-3 passengers).
+   - **Bespoke Transparent Quote**: Custom all-inclusive pricing based on your dates and kilometers (for the whole vehicle, capacity 1-3 passengers).
    - Ideal for: Classic Golden Triangle tours (Delhi-Agra-Jaipur), solo travelers, and couples with light luggage.
 
 2. **Premium SUV (Toyota Innova Crysta)**:
-   - **Average Daily Rate**: Approx. **$70 – $80 / €65 – €75 per day** (for the whole vehicle, capacity up to 5 passengers).
+   - **Bespoke Transparent Quote**: Custom all-inclusive rate with guaranteed executive captain seats (for the whole vehicle, capacity up to 5 passengers).
    - Ideal for: 10-15 day Grand Rajasthan tours, families with children, or travelers who prioritize executive captain seats and superior shock absorption.
 
 3. **Luxury Minivan (Tempo Traveller / Force Urbania)**:
-   - **Average Daily Rate**: Approx. **$105 – $130 / €95 – €120 per day** (for the vehicle, capacity 6-10 passengers).
+   - **Bespoke Transparent Quote**: Premium spacious van rates with pushback seats and high roof (for the vehicle, capacity 6-10 passengers).
    - Ideal for: Extended families and small private groups.
 
 ---
@@ -75,7 +75,7 @@ At **Private Driver India**, we enforce a strict **Zero-Commission Policy**: our
     faqs: [
       {
         q: "How much should I tip the private driver in India?",
-        a: "Tipping in India is customary for attentive, courteous service. For multi-day road tours, the recommended standard tip is between ₹500 to ₹800 INR (approx. $6–$10 USD / €6–€9 EUR) per day from the entire group, presented at the end of the journey."
+        a: "Tipping in India is customary for attentive, courteous service. For multi-day road tours, the recommended standard tip is between ₹500 to ₹800 INR per day from the entire group, presented at the end of the journey."
       },
       {
         q: "What language do your chauffeurs speak?",
@@ -164,8 +164,8 @@ The Toyota Innova Crysta is not just another MPV: across India, it is recognized
     `,
     faqs: [
       {
-        q: "What is the price difference between a Sedan and the Innova Crysta?",
-        a: "The difference is typically just $18–$22 / €15–€20 per day for the entire vehicle. For 2 to 3 travelers, upgrading to the Innova Crysta costs only about $7 / €6 per person per day—an unbeatable investment in safety, comfort, and relaxation."
+        q: "How does the Innova Crysta compare to a standard sedan?",
+        a: "While a sedan is comfortable for short city tours, the Innova Crysta provides significantly higher ground clearance, plush independent captain seats, and exceptional luggage storage. For multi-day road tours across Rajasthan, upgrading to the Innova Crysta is the single best investment in ride quality and passenger relaxation."
       }
     ]
   }

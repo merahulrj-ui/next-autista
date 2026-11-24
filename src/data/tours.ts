@@ -196,15 +196,47 @@ export const TOURS: Tour[] = [
       'Seamless coordination for domestic flight or high-speed express train connections'
     ],
     itinerary: [
-      { day: 1, title: 'Arrival in Delhi', description: 'Chauffeur welcome at Delhi Airport, check in to hotel, and afternoon introductory sightseeing.' },
-      { day: 2, title: 'Delhi to Agra', description: 'Scenic drive to Agra via Yamuna Expressway. Tour Agra Fort and sunset vista at Mehtab Bagh.' },
-      { day: 3, title: 'Taj Mahal & Flight or Train to Varanasi', description: 'Sunrise at the Taj Mahal. Return to Delhi for an afternoon flight to Varanasi (or executive Vande Bharat express train).' },
-      { day: 4, title: 'Varanasi & Evening Ganga Aarti', description: 'Arrival in Varanasi. Late afternoon walking tour of the ghats and private boat ride for the Ganga Aarti ceremony at Dashashwamedh Ghat.' },
-      { day: 5, title: 'Sunrise on the Ganges & Sarnath Sacred Site', description: 'Dawn boat ride along the Ganges observing morning prayer rituals. Afternoon excursion to Sarnath and its archaeological museum.' },
-      { day: 6, title: 'Sacred Temples & Silk Bazaars of Varanasi', description: 'Visit Kashi Vishwanath Golden Temple, Durga Temple, and explore Varanasi\'s centuries-old handloom silk weaving quarters.' },
-      { day: 7, title: 'Varanasi to Delhi (Flight)', description: 'Fly back to Delhi. Afternoon free for handicraft shopping or visiting Akshardham Temple.' },
-      { day: 8, title: 'Delhi International Departure', description: 'Private transfer to Delhi International Airport in time for your flight home.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Delhi & Private Chauffeur Meet-and-Greet",
+            description: "Your professional English-speaking private driver warmly welcomes you at Delhi International Airport (DEL) with a personalized name board. Direct transfer in an air-conditioned executive vehicle to your hotel. Afternoon introductory drive passing India Gate, Rashtrapati Bhavan, and the 73-meter medieval minaret of Qutub Minar."
+      },
+      {
+            day: 2,
+            title: "Old Delhi Heritage & Scenic Expressway Drive to Agra",
+            description: "Explore the bustling lanes of Old Delhi with a visit to the colossal Jama Masjid and a cycle-rickshaw ride through Chandni Chowk spice bazaars. In the afternoon, relax aboard your private car along the smooth 6-lane Yamuna Expressway to Agra. Enjoy a serene sunset view of the Taj Mahal from Mehtab Bagh gardens across the Yamuna River."
+      },
+      {
+            day: 3,
+            title: "Sunrise Taj Mahal, Imperial Agra Fort & Express Transit to Varanasi",
+            description: "Experience the ethereal beauty of the Taj Mahal at sunrise with your private driver ensuring prompt arrival before crowds gather. Tour the majestic red sandstone Agra Fort, once the seat of Mughal power. Later, your chauffeur transfers you comfortably to Delhi Airport or the railway station for your onward journey to the holy city of Varanasi."
+      },
+      {
+            day: 4,
+            title: "Arrival in Sacred Varanasi & Grand Ganga Aarti Ceremony",
+            description: "Arrive in Varanasi, the spiritual heart of India. Meet your local private driver and transfer to your riverside hotel. In the evening, embark on a private boat on the River Ganges to witness the mesmerizing Ganga Aarti ceremony at Dashashwamedh Ghat, accompanied by rhythmic chanting, brass lamps, and floating flower diyas."
+      },
+      {
+            day: 5,
+            title: "Dawn Rowing Boat on the Ganges & Sarnath Excursion",
+            description: "At dawn, experience a serene boat journey along Varanasi's historic bathing ghats as pilgrims perform morning prayers and sacred rituals. Afternoon private excursion to Sarnath, the revered deer park where Lord Buddha preached his first sermon after attaining enlightenment, followed by a visit to the Sarnath Archaeological Museum."
+      },
+      {
+            day: 6,
+            title: "Ancient Temples & Handloom Silk Weaving Quarters",
+            description: "Discover Varanasi's spiritual architecture including the revered Kashi Vishwanath Golden Temple and the red-hued Durga Temple. Walk through ancient narrow alleyways with your driver guiding you to authentic silk weaving workshops celebrated globally for hand-woven Banarasi brocade sarees."
+      },
+      {
+            day: 7,
+            title: "Varanasi to Delhi & Afternoon Cultural Sightseeing",
+            description: "Your private chauffeur escorts you to Varanasi Airport for your return flight to Delhi. Upon arrival in the capital, enjoy an afternoon visiting the magnificent Akshardham Temple or indulging in souvenir shopping in Delhi's government-approved handicraft emporiums with full vehicle luggage safety."
+      },
+      {
+            day: 8,
+            title: "Delhi Sightseeing & International Departure",
+            description: "After breakfast, spend your remaining hours exploring the tranquil gardens of Humayun's Tomb or the Lotus Temple. Your private driver provides seamless, timely transit to Delhi International Airport in time for your return international flight."
+      }
+],
     inclusions: [
       'Private air-conditioned car for all transfers in Delhi, Agra, and Varanasi',
       'Experienced chauffeur and all road transport expenses included',
@@ -213,8 +245,19 @@ export const TOURS: Tour[] = [
     ],
     exclusions: ['Domestic flights (Delhi-Varanasi-Delhi)', 'Hotels and meals', 'Monument entrance fees'],
     faqs: [
-      { q: 'How do we travel from Agra to Varanasi?', a: 'We recommend a short 1.5-hour direct flight from Delhi to Varanasi, or the comfortable modern daytime Vande Bharat Express train.' }
-    ],
+      {
+            q: "How do we travel between Agra and Varanasi?",
+            a: "We recommend a quick 1.5-hour direct flight from Delhi to Varanasi, or the comfortable modern daytime Vande Bharat Express train. Your private chauffeur handles all station/airport transfers seamlessly."
+      },
+      {
+            q: "Are boat rides on the Ganges in Varanasi private or shared?",
+            a: "All boat excursions included in our tours are 100% private. You have an exclusive rowing or motor boat for both the dawn ghats cruise and the evening Ganga Aarti fire ceremony."
+      },
+      {
+            q: "Is Varanasi safe for international travelers and solo female tourists?",
+            a: "Yes, Varanasi is deeply welcoming and spiritual. Having a dedicated private driver and vetted local coordinator ensures you navigate the bustling ghats with complete comfort and peace of mind."
+      }
+],
     rating: 4.92,
     reviewsCount: 92
   },
@@ -283,15 +326,48 @@ export const TOURS: Tour[] = [
       'Visit to the 8th-century Jain and Hindu desert temples at Osian'
     ],
     itinerary: [
-      { day: 1, title: 'Arrival in Jodhpur (The Blue City)', description: 'Chauffeur welcome in Jodhpur, tour of Mehrangarh Fort and the white marble cenotaph of Jaswant Thada.' },
-      { day: 2, title: 'Jodhpur - Osian Temples - Jaisalmer', description: 'Drive through the desert stopping at the historic temples of Osian. Arrive in Jaisalmer for sunset at Bada Bagh.' },
-      { day: 3, title: 'Jaisalmer Fort & Desert Camp Night', description: 'Morning in Jaisalmer Fort and Patwon Ki Haveli. Afternoon transfer to Sam Sand Dunes tented camp for camel safari and cultural folk dance.' },
-      { day: 4, title: 'Sam Dunes - Kuldhara Ghost Village - Jodhpur', description: 'Visit the mysterious abandoned ghost village of Kuldhara and drive comfortably back to Jodhpur. Evening at the Clock Tower market.' },
-      { day: 5, title: 'Jodhpur & Departure', description: 'Visit the grand Umaid Bhawan Palace museum and transfer to Jodhpur Airport or Railway Station.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Jodhpur (The Blue City) & Mehrangarh Fort Ramparts",
+            description: "Meet your private chauffeur at Jodhpur Airport or Railway Station. Check in to your heritage hotel and begin your exploration of the Blue City at Mehrangarh Fort, towering 400 feet above the indigo-washed houses. Visit the white marble royal cenotaph of Jaswant Thada and stroll through the vibrant Clock Tower spice market."
+      },
+      {
+            day: 2,
+            title: "Jodhpur to Jaisalmer via Ancient Osian Desert Temples",
+            description: "Embark on a scenic highway drive through the Thar Desert aboard your air-conditioned private vehicle. Stop at the ancient 8th-century temple oasis of Osian to admire intricately carved Hindu and Jain architecture. Continue toward the Golden City of Jaisalmer, pausing at Bada Bagh royal cenotaphs for a radiant desert sunset photo."
+      },
+      {
+            day: 3,
+            title: "Jaisalmer Living Fort Citadel & Sam Sand Dunes Luxury Camp",
+            description: "Morning walking tour inside the UNESCO World Heritage Jaisalmer Fort (Sonar Qila), one of the world's few living forts where locals still reside. Marvel at the delicate stone filigree of Patwon Ki Haveli and Salim Singh Ki Haveli. In the afternoon, your driver whisks you to the undulating golden sands of Sam for a camel safari, sunset dune photography, and live Kalbelia folk dances around a campfire."
+      },
+      {
+            day: 4,
+            title: "Kuldhara Ghost Village & Scenic Return to Jodhpur",
+            description: "After breakfast amidst the dunes, visit the mysterious abandoned 13th-century ghost village of Kuldhara. Relax aboard your private vehicle on the smooth highway drive back to Jodhpur. In the evening, explore Toorji Ka Jhalra stepwell and enjoy rooftop dining overlooking the illuminated ramparts of Mehrangarh Fort."
+      },
+      {
+            day: 5,
+            title: "Umaid Bhawan Palace & Jodhpur Departure",
+            description: "Visit the grand Art Deco marvel of Umaid Bhawan Palace, one of the world's largest private royal residences, housing a museum of vintage cars and royal artifacts. Your private chauffeur provides direct transfer to Jodhpur Airport or Railway Station for your onward journey."
+      }
+],
     inclusions: ['Private car and dedicated chauffeur for the entire circuit', 'All fuel, highway tolls, and parking included', '24/7 dedicated WhatsApp support'],
     exclusions: ['Hotel and desert camp accommodations', 'Meals and entrance fees'],
-    faqs: [{ q: 'Is it safe to stay in desert tented camps?', a: 'Yes, absolutely. Our partner luxury camps offer secure, private Swiss cottage tents with attached modern brick bathrooms and 24-hour security.' }],
+    faqs: [
+      {
+            q: "What type of accommodation is provided in Sam Sand Dunes?",
+            a: "Our desert safaris feature luxury Swiss cottage tents equipped with comfortable beds, electricity, air-cooling, attached modern western bathrooms, and 24/7 security."
+      },
+      {
+            q: "Can we extend this tour to include Udaipur?",
+            a: "Yes, 100%! We can easily customize this itinerary into a 7-day circuit covering Jodhpur, Jaisalmer, Ranakpur Jain Temple, and lakeside Udaipur with private chauffeur."
+      },
+      {
+            q: "What is the road condition between Jodhpur and Jaisalmer?",
+            a: "The highways between Jodhpur and Jaisalmer are smooth, modern, and scenic national highways, making the 4 to 5-hour drive comfortable and relaxing in our air-conditioned vehicles."
+      }
+],
     rating: 4.94,
     reviewsCount: 76
   },
@@ -318,17 +394,58 @@ export const TOURS: Tour[] = [
       'Scenic, comfortable highway travel with your private chauffeur'
     ],
     itinerary: [
-      { day: 1, title: 'Arrival in Delhi', description: 'Airport welcome and private transfer. Introductory afternoon tour of major monuments.' },
-      { day: 2, title: 'Delhi to Agra', description: 'Drive to Agra via Yamuna Expressway and explore Agra Fort.' },
-      { day: 3, title: 'Taj Mahal - Fatehpur Sikri - Jaipur', description: 'Sunrise at the Taj Mahal, followed by drive to Jaipur stopping at the imperial city of Fatehpur Sikri.' },
-      { day: 4, title: 'Jaipur: The Pink City', description: 'Amber Fort, Hawa Mahal, City Palace, and traditional craft bazaars.' },
-      { day: 5, title: 'Jaipur to Pushkar', description: 'Short drive to Pushkar. Afternoon exploring the holy ghats and sunset over the Savitri Temple hills.' },
-      { day: 6, title: 'Sacred Pushkar & Return Drive', description: 'Peaceful morning visiting Brahma Temple and rose gardens. Scenic return drive toward Delhi.' },
-      { day: 7, title: 'Delhi & International Departure', description: 'Transfer to Delhi International Airport for your flight home.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Delhi & Private Meet-and-Greet",
+            description: "Meet your private chauffeur at Delhi International Airport (DEL) with a warm welcome. Transfer to your hotel in an air-conditioned executive vehicle. Afternoon orientation drive around Central Delhi, viewing India Gate and Parliament House."
+      },
+      {
+            day: 2,
+            title: "Historic Delhi Sightseeing & Drive to Agra",
+            description: "Morning tour of Old Delhi: Jama Masjid, Raj Ghat memorial, and Chandni Chowk bazaars. In the afternoon, enjoy a relaxing highway drive along the Yamuna Expressway to Agra. Sunset photography of the Taj Mahal from Mehtab Bagh gardens."
+      },
+      {
+            day: 3,
+            title: "Sunrise Taj Mahal, Fatehpur Sikri & Drive to Jaipur",
+            description: "Early morning entrance to the Taj Mahal to admire the white marble wonder at dawn. Return for breakfast, tour the red sandstone Agra Fort, and continue toward Jaipur with a stop at the UNESCO Mughal ghost city of Fatehpur Sikri and the Abhaneri stepwell."
+      },
+      {
+            day: 4,
+            title: "Jaipur Pink City & Amber Fort Ramparts",
+            description: "Ascend the hilltop Amber Fort, photograph the intricate facade of Hawa Mahal, and explore City Palace museum and Jantar Mantar observatory. Evening free for shopping in Jaipur's celebrated artisan markets for block-printed linens and blue pottery."
+      },
+      {
+            day: 5,
+            title: "Jaipur to Sacred Pushkar Oasis",
+            description: "Scenic 3-hour morning drive in your private car to the holy desert town of Pushkar. Check in to your hotel and spend the afternoon walking along the 52 sacred bathing ghats of Pushkar Lake. Climb or take the cable car to Savitri Temple for a panoramic sunset over the desert hills."
+      },
+      {
+            day: 6,
+            title: "Pushkar Brahma Temple, Desert Rose Farms & Drive toward Delhi",
+            description: "Visit the rare and revered 14th-century Lord Brahma Temple, one of the few shrines dedicated to the Creator deity in the world. Walk through Pushkar's famous rose gardens producing pure rose water and essential oils. In the afternoon, relax aboard your private vehicle on the return drive toward Delhi."
+      },
+      {
+            day: 7,
+            title: "Delhi Sightseeing & Airport Drop-off",
+            description: "Spend your final morning visiting Humayun's Tomb or the peaceful Lotus Temple. Your private driver ensures timely and luggage-assisted transfer directly to Delhi International Airport for your departure."
+      }
+],
     inclusions: ['Private vehicle and dedicated chauffeur for all 7 days', 'All fuel, tolls, and parking included', '24/7 dedicated WhatsApp support'],
     exclusions: ['Hotels, monument tickets, and meals'],
-    faqs: [{ q: 'Can international visitors participate in rituals at Pushkar Lake?', a: 'Yes, international guests are warmly welcomed at the ghats, provided shoes are removed and local sacred customs are respected.' }],
+    faqs: [
+      {
+            q: "What makes Pushkar so unique compared to other cities in Rajasthan?",
+            a: "Pushkar is one of India's most sacred pilgrimage sites, famous for its holy lake surrounded by 52 ghats, the rare Brahma Temple, vibrant spiritual culture, and tranquil, slow-paced desert atmosphere."
+      },
+      {
+            q: "Are alcohol and non-vegetarian food available in Pushkar?",
+            a: "Because Pushkar is a strictly sacred temple town, all meat, fish, and alcohol are banned within municipal limits. The town offers world-class vegetarian and vegan international cuisines in charming rooftop cafes."
+      },
+      {
+            q: "Can this tour be combined with the annual Pushkar Camel Fair?",
+            a: "Yes! If you travel in October or November during the Kartik Purnima full moon, we coordinate your visit to witness the world's greatest camel and livestock trading fair."
+      }
+],
     rating: 4.91,
     reviewsCount: 88
   },
@@ -355,17 +472,58 @@ export const TOURS: Tour[] = [
       'Explore the palaces and hill forts of the Pink City of Jaipur'
     ],
     itinerary: [
-      { day: 1, title: 'Arrival in Delhi', description: 'Chauffeur airport greeting and panoramic city orientation tour.' },
-      { day: 2, title: 'Delhi to Agra', description: 'Expressway drive to Agra and visit to the imposing Agra Fort.' },
-      { day: 3, title: 'Taj Mahal to Ranthambore', description: 'Sunrise at the Taj Mahal, followed by scenic drive to Ranthambore Tiger Reserve.' },
-      { day: 4, title: 'Ranthambore: Dual Jungle Safaris', description: 'Early morning game drive and afternoon safari in open jeeps tracking Bengal tigers.' },
-      { day: 5, title: 'Ranthambore to Jaipur', description: 'Visit ancient 10th-century Ranthambore Fort within the jungle, then drive to Jaipur.' },
-      { day: 6, title: 'Monumental Jaipur', description: 'Ascend Amber Fort, photograph Hawa Mahal, and explore the City Palace.' },
-      { day: 7, title: 'Jaipur to Delhi & Departure', description: 'Comfortable return highway drive to Delhi for your international flight.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Delhi & Introductory City Exploration",
+            description: "Your private chauffeur welcomes you at Delhi Airport (DEL) with a personalized placard. Enjoy a smooth transfer to your hotel and an introductory afternoon tour of Delhi, visiting the stately India Gate, President's Palace, and the towering 12th-century Qutub Minar."
+      },
+      {
+            day: 2,
+            title: "Old Delhi Heritage & Scenic Expressway Journey to Agra",
+            description: "Morning exploration of Old Delhi including the grand Jama Masjid and a rickshaw ride through the bustling spice bazaars of Chandni Chowk. Afternoon scenic drive along the Yamuna Expressway in your air-conditioned car to Agra. Evening sunset vista of the Taj Mahal from across the river at Mehtab Bagh."
+      },
+      {
+            day: 3,
+            title: "Sunrise Taj Mahal, Agra Fort & Drive to Ranthambore Tiger Reserve",
+            description: "Witness the Taj Mahal at dawn as the first morning light illuminates its Makrana white marble facade. Explore Agra Fort's grand halls and pavilions. Later, relax on the scenic highway journey toward Sawai Madhopur, the gateway to Ranthambore National Park, checking in to your wildlife jungle resort."
+      },
+      {
+            day: 4,
+            title: "Ranthambore Jungle Safari Drives: Tracking Royal Bengal Tigers",
+            description: "Embark on an exhilarating dawn 4x4 open-top Gypsy safari deep into the dense deciduous forests of Ranthambore, guided by an authorized naturalist and park ranger. Return to your resort for breakfast and relaxation. Afternoon second safari game drive tracking tigers, leopards, sloth bears, sambar deer, and marsh crocodiles around historic park lakes."
+      },
+      {
+            day: 5,
+            title: "Ranthambore to Jaipur (The Pink City) via Rural Countryside",
+            description: "Enjoy a leisurely morning breakfast at your jungle lodge before a comfortable drive to Jaipur in your private vehicle. En route, observe rural Rajasthani agricultural life and camel carts. Arrive in Jaipur with an evening visit to the luminous Birla Temple."
+      },
+      {
+            day: 6,
+            title: "Jaipur: Amber Fort Ramparts & Royal City Palace",
+            description: "Full day exploring Rajasthan's royal capital. Ascend the majestic ramparts of Amber Fort, take photos at the honeycomb facade of Hawa Mahal (Palace of Winds), and tour the Maharaja's City Palace and Jantar Mantar UNESCO astronomical observatory. Evening free to explore colorful textile and gemstone bazaars."
+      },
+      {
+            day: 7,
+            title: "Jaipur to Delhi & International Airport Transfer",
+            description: "After breakfast, relax on the smooth return expressway drive back to Delhi. Your private chauffeur drops you off directly at Delhi International Airport in time for your flight home, concluding an unforgettable monuments and wildlife expedition."
+      }
+],
     inclusions: ['Private air-conditioned car and chauffeur for all journeys', 'Fuel, highway tolls, and parking fees', '24/7 dedicated concierge assistance'],
     exclusions: ['Government safari permits (early booking recommended)', 'Hotels and meals'],
-    faqs: [{ q: 'When is Ranthambore National Park open?', a: 'The park is open from October 1 to June 30. During the monsoon months (July to September), the core tiger zones remain closed.' }],
+    faqs: [
+      {
+            q: "When is Ranthambore National Park open for tiger safaris?",
+            a: "Ranthambore National Park is open from October 1st to June 30th each year. Peak tiger sighting months are November through May when animals frequent water holes."
+      },
+      {
+            q: "What vehicle is used for the jungle tiger safaris?",
+            a: "We arrange 6-seater open-top 4x4 Maruti Suzuki Gypsies accompanied by government-certified naturalists and park trackers for the best wildlife photography angles."
+      },
+      {
+            q: "Is advance booking required for Ranthambore safari permits?",
+            a: "Yes! Ranthambore tiger safari permits are strictly regulated by the Rajasthan Forest Department and sell out months in advance. We handle complete advance permit reservations for all our guests."
+      }
+],
     rating: 4.96,
     reviewsCount: 110
   },
@@ -392,20 +550,73 @@ export const TOURS: Tour[] = [
       'Executive private vehicle with courteous English-speaking chauffeur'
     ],
     itinerary: [
-      { day: 1, title: 'Arrival in Delhi', description: 'Private airport transfer and overnight relaxation.' },
-      { day: 2, title: 'Delhi to Agra', description: 'Discover Agra and explore the historic red sandstone Agra Fort.' },
-      { day: 3, title: 'Taj Mahal to Jaipur', description: 'Sunrise at the Taj Mahal, then drive to Jaipur stopping at Fatehpur Sikri.' },
-      { day: 4, title: 'Jaipur Forts & Palaces', description: 'Amber Fort, City Palace, and Jantar Mantar observatory.' },
-      { day: 5, title: 'Jaipur - Pushkar - Jodhpur', description: 'Stop at sacred Pushkar Lake, then continue across the desert to Jodhpur.' },
-      { day: 6, title: 'Jodhpur (The Blue City)', description: 'Mehrangarh Fort and the vibrant Sardar spice market.' },
-      { day: 7, title: 'Jodhpur - Ranakpur - Udaipur', description: 'Scenic mountain drive via Ranakpur marble temples to Udaipur.' },
-      { day: 8, title: 'Fairy-tale Udaipur', description: 'City Palace complex and private boat cruise on Lake Pichola.' },
-      { day: 9, title: 'Udaipur Sightseeing & Relaxation', description: 'Saheliyon Ki Bari royal gardens and local artisan workshops.' },
-      { day: 10, title: 'Udaipur to Delhi (Flight) & Departure', description: 'Transfer to Udaipur Airport for Delhi connection and flight home.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Delhi & Historic Orientation",
+            description: "Your private chauffeur meets you at Delhi Airport (DEL) with personalized signboard assistance. Transfer to hotel and introductory tour of New Delhi, including India Gate and Qutub Minar."
+      },
+      {
+            day: 2,
+            title: "Delhi to Agra & Sunset over the Taj Mahal",
+            description: "Morning tour of Old Delhi (Jama Masjid and Chandni Chowk). Afternoon expressway drive to Agra in your comfortable air-conditioned car. Sunset vista over the Taj Mahal from Mehtab Bagh across the Yamuna River."
+      },
+      {
+            day: 3,
+            title: "Sunrise Taj Mahal, Fatehpur Sikri & Drive to Jaipur",
+            description: "Dawn visit to the Taj Mahal at sunrise. Explore Agra Fort's royal halls. Scenic drive to the Pink City of Jaipur, stopping en route at the ancient 1,000-year-old Chand Baori stepwell in Abhaneri and the imperial ruins of Fatehpur Sikri."
+      },
+      {
+            day: 4,
+            title: "Jaipur: Amber Fort & Palaces of the Maharajas",
+            description: "Full day in Jaipur: ascend the ramparts of Amber Fort, photograph the iconic Palace of Winds (Hawa Mahal), and tour the royal City Palace museum and Jantar Mantar astronomical observatory."
+      },
+      {
+            day: 5,
+            title: "Jaipur to Sacred Pushkar Oasis",
+            description: "Scenic morning highway drive to the holy town of Pushkar. Stroll along the 52 sacred lake ghats and visit the rare 14th-century temple of Lord Brahma. Sunset views from the hilltop Savitri Temple."
+      },
+      {
+            day: 6,
+            title: "Pushkar to Jodhpur (The Blue City)",
+            description: "Drive through the desert landscape to Jodhpur in your private vehicle. Check in to your hotel and spend the afternoon exploring the blue-painted lanes of Brahmapuri and the bustling Clock Tower market."
+      },
+      {
+            day: 7,
+            title: "Jodhpur Mehrangarh Fort & Drive to Udaipur via Ranakpur",
+            description: "Morning visit to the colossal Mehrangarh Fort and Jaswant Thada marble cenotaph. Scenic mountain drive through the Aravalli hills to Udaipur, stopping to marvel at the 1,444 intricately carved marble pillars of Ranakpur Jain Temple."
+      },
+      {
+            day: 8,
+            title: "Udaipur: City of Lakes & Lake Pichola Cruise",
+            description: "Explore the lakeside City Palace complex, Jagdish Temple, and the ornamental gardens of Saheliyon Ki Bari. In the late afternoon, embark on a private sunset boat ride on Lake Pichola with breathtaking views of the Lake Palace."
+      },
+      {
+            day: 9,
+            title: "Udaipur Cultural Exploration & Monsoon Palace",
+            description: "Visit the hilltop Monsoon Palace (Sajjangarh) offering panoramic views over the lakes and hills of Mewar. Afternoon free for local artisan handicraft and miniature painting workshops."
+      },
+      {
+            day: 10,
+            title: "Udaipur Departure / Return Transit to Delhi",
+            description: "After breakfast, your private chauffeur transfers you to Udaipur Airport for a quick flight to Delhi or coordinates your scenic return highway journey according to your travel preferences."
+      }
+],
     inclusions: ['Private vehicle and chauffeur for the full 10-day tour', 'All road taxes, tolls, and fuel included', 'Continuous English-speaking concierge support'],
     exclusions: ['Hotel stays, monument tickets, and personal meals'],
-    faqs: [{ q: 'Can we book our own preferred heritage hotels?', a: 'Yes, of course. You can reserve any hotels you prefer and simply share the details with your chauffeur.' }],
+    faqs: [
+      {
+            q: "Is 10 days sufficient to see the best of Rajasthan?",
+            a: "Yes! This 10-day circuit is our most popular express itinerary because it perfectly covers the Golden Triangle (Delhi, Agra, Jaipur) along with the royal highlights of Pushkar, Jodhpur, and Udaipur."
+      },
+      {
+            q: "What vehicle is best for this 10-day tour?",
+            a: "For couples and solo travelers, a comfortable sedan (Toyota Etios / Dzire) is excellent. For families or travelers with multiple suitcases, we strongly recommend the Toyota Innova Crysta for premium suspension and space."
+      },
+      {
+            q: "Can we modify the stops along the route?",
+            a: "Yes, 100%. All our chauffeur tours are private and customizable. You can request additional stops at local stepwells, countryside cafes, or craft villages anytime."
+      }
+],
     rating: 4.95,
     reviewsCount: 95
   },
@@ -432,26 +643,99 @@ export const TOURS: Tour[] = [
       'Supreme day-to-day flexibility with your trusted private chauffeur'
     ],
     itinerary: [
-      { day: 1, title: 'Arrival in Delhi', description: 'Airport welcome and hotel check-in.' },
-      { day: 2, title: 'Delhi to Mandawa', description: 'Frescoed havelis of the Shekhawati region.' },
-      { day: 3, title: 'Mandawa to Bikaner', description: 'Junagarh Fort and camel breeding center.' },
-      { day: 4, title: 'Bikaner to Jaisalmer', description: 'Golden City arrival and Bada Bagh sunset.' },
-      { day: 5, title: 'Jaisalmer Fort & Sam Dunes', description: 'Living Fort tour and camel desert safari.' },
-      { day: 6, title: 'Jaisalmer to Jodhpur', description: 'Mehrangarh Fort and the blue quarter.' },
-      { day: 7, title: 'Jodhpur to Mount Abu', description: 'Scenic drive to Rajasthan\'s lush mountain retreat.' },
-      { day: 8, title: 'Mount Abu to Udaipur', description: 'Dilwara marble temples and arrival in lakeside Udaipur.' },
-      { day: 9, title: 'Udaipur', description: 'City Palace and Lake Pichola cruise.' },
-      { day: 10, title: 'Udaipur - Chittorgarh - Pushkar', description: 'Chittorgarh Fort and holy Pushkar Lake.' },
-      { day: 11, title: 'Pushkar to Jaipur', description: 'Brahma Temple and drive to the Pink City.' },
-      { day: 12, title: 'Jaipur', description: 'Amber Fort, Hawa Mahal, and City Palace.' },
-      { day: 13, title: 'Jaipur to Ranthambore', description: 'Drive to the famous tiger reserve.' },
-      { day: 14, title: 'Ranthambore to Agra', description: 'Morning game drive, then highway drive to Agra via Fatehpur Sikri.' },
-      { day: 15, title: 'Agra (Taj Mahal) to Delhi', description: 'Sunrise at the Taj Mahal and drive to Delhi.' },
-      { day: 16, title: 'Delhi & Departure', description: 'Airport transfer for your international flight.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Delhi",
+            description: "Private meet-and-greet at Delhi Airport (DEL) by your chauffeur. Hotel transfer and introductory drive around New Delhi."
+      },
+      {
+            day: 2,
+            title: "Delhi to Shekhawati (Mandawa)",
+            description: "Drive into the open-air art gallery of Shekhawati. Walking tour of painted merchant havelis adorned with vibrant frescoes."
+      },
+      {
+            day: 3,
+            title: "Mandawa to Bikaner",
+            description: "Desert drive to Bikaner; visit the unconquered Junagarh Fort, Lalgarh Palace, and the camel research farm."
+      },
+      {
+            day: 4,
+            title: "Bikaner to Jaisalmer (The Golden City)",
+            description: "Highway journey through the Thar Desert to Jaisalmer, stopping at Karni Mata Temple. Sunset over Bada Bagh royal cenotaphs."
+      },
+      {
+            day: 5,
+            title: "Jaisalmer Fort & Sam Sand Dunes Safari",
+            description: "Explore Jaisalmer Living Fort and Patwon Ki Haveli. Afternoon camel safari and desert tent camp stay in Sam Sand Dunes."
+      },
+      {
+            day: 6,
+            title: "Jaisalmer to Jodhpur (The Blue City)",
+            description: "Drive to Jodhpur; visit the colossal Mehrangarh Fort, Jaswant Thada, and blue Brahmin alleys."
+      },
+      {
+            day: 7,
+            title: "Jodhpur to Mount Abu via Ranakpur",
+            description: "Drive through Aravalli hills, marveling at the 1,444 marble pillars of Ranakpur Jain Temple before ascending Mount Abu."
+      },
+      {
+            day: 8,
+            title: "Mount Abu to Udaipur",
+            description: "Visit Dilwara Jain Temples and Nakki Lake, then descend into the romantic City of Lakes (Udaipur)."
+      },
+      {
+            day: 9,
+            title: "Udaipur City of Lakes",
+            description: "City Palace, Jagdish Temple, Saheliyon Ki Bari, and a private sunset boat cruise on Lake Pichola."
+      },
+      {
+            day: 10,
+            title: "Udaipur to Chittorgarh Fort",
+            description: "Drive to Chittorgarh to explore Asia's largest fortress of Rajput honor, Vijay Stambha, and Padmini Palace."
+      },
+      {
+            day: 11,
+            title: "Chittorgarh to Bundi",
+            description: "Explore the painted Taragarh Fort, ancient stepwells (baoris), and royal palace murals of Bundi."
+      },
+      {
+            day: 12,
+            title: "Bundi to Ranthambore Tiger Reserve",
+            description: "Drive to Sawai Madhopur; check in to your wildlife resort and prepare for national park safaris."
+      },
+      {
+            day: 13,
+            title: "Ranthambore Jungle Safaris",
+            description: "Morning and afternoon 4x4 open Gypsy safaris tracking Royal Bengal Tigers and wildlife in Ranthambore."
+      },
+      {
+            day: 14,
+            title: "Ranthambore to Jaipur",
+            description: "Scenic drive to Jaipur; afternoon at leisure exploring local bazaars and Birla Temple."
+      },
+      {
+            day: 15,
+            title: "Jaipur Pink City & Amber Fort",
+            description: "Full day: Amber Fort, Hawa Mahal, City Palace, and Jantar Mantar UNESCO observatory."
+      },
+      {
+            day: 16,
+            title: "Jaipur to Agra & Return to Delhi",
+            description: "Drive to Agra via Fatehpur Sikri; visit the Taj Mahal and Agra Fort, then expressway drive back to Delhi Airport."
+      }
+],
     inclusions: ['Exclusive vehicle with dedicated chauffeur for all 16 days', 'All transport and road expenses included', '24/7 dedicated WhatsApp support'],
     exclusions: ['Hotels, meals, and monument tickets'],
-    faqs: [{ q: 'Can we pay a deposit and settle the balance during the trip?', a: 'Yes, a small deposit confirms your vehicle, and the balance is settled during the tour.' }],
+    faqs: [
+      {
+            q: "What makes the 16-Day Arena of Maharaja tour unique?",
+            a: "This grand expedition covers the entire royal state of Rajasthan: desert dunes, hill stations, lake palaces, tiger safaris, and World Wonder monuments in complete comfort with a private chauffeur."
+      },
+      {
+            q: "Can the pace of this 16-day tour be relaxed with extra nights?",
+            a: "Yes, 100%. We can easily add extra days in Udaipur, Jaisalmer, or Jaipur to match your exact pace and holiday preferences."
+      }
+],
     rating: 4.99,
     reviewsCount: 71
   },
@@ -477,19 +761,64 @@ export const TOURS: Tour[] = [
       'Mehrangarh Fort in Jodhpur and Amber Fort in Jaipur'
     ],
     itinerary: [
-      { day: 1, title: 'Delhi to Bikaner', description: 'Drive toward Bikaner across the Rajasthan plains.' },
-      { day: 2, title: 'Bikaner to Jaisalmer', description: 'Junagarh Fort visit, then journey to the Golden City.' },
-      { day: 3, title: 'Magical Jaisalmer', description: 'Golden Fort, Patwon Haveli, and overnight in the desert dunes.' },
-      { day: 4, title: 'Jaisalmer to Jodhpur', description: 'Drive to the Blue City.' },
-      { day: 5, title: 'Jodhpur Sightseeing', description: 'Explore Mehrangarh Fort and Jaswant Thada.' },
-      { day: 6, title: 'Jodhpur to Jaipur', description: 'Drive to Rajasthan\'s royal capital.' },
-      { day: 7, title: 'Jaipur', description: 'Amber Fort, City Palace, and bazaars.' },
-      { day: 8, title: 'Jaipur to Delhi', description: 'Expressway return to Delhi.' },
-      { day: 9, title: 'Delhi & Departure', description: 'Airport transfer for your return flight.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Delhi & Heritage Welcome",
+            description: "Meet your private chauffeur at Delhi International Airport. Transfer to your hotel and enjoy an introductory drive to India Gate and Connaught Place."
+      },
+      {
+            day: 2,
+            title: "Delhi to Shekhawati (Mandawa)",
+            description: "Morning scenic drive to Mandawa in the semi-arid Shekhawati region. Walking tour of painted merchant havelis covered with colorful historic frescoes."
+      },
+      {
+            day: 3,
+            title: "Mandawa to Bikaner (Camel Country)",
+            description: "Drive across desert highways to Bikaner. Tour the magnificent red sandstone Junagarh Fort and the National Camel Breeding Farm."
+      },
+      {
+            day: 4,
+            title: "Bikaner to Jaisalmer (The Golden City)",
+            description: "Journey deep into the Thar Desert. Visit Karni Mata Temple in Deshnoke, continuing to Jaisalmer to watch the sunset at Bada Bagh cenotaphs."
+      },
+      {
+            day: 5,
+            title: "Jaisalmer Fort & Sam Dunes Desert Safari",
+            description: "Explore the living golden citadel of Jaisalmer Fort and Patwon Ki Haveli. In the afternoon, transfer to Sam Sand Dunes for camel riding and a cultural folk music camp."
+      },
+      {
+            day: 6,
+            title: "Jaisalmer to Jodhpur (The Blue City)",
+            description: "Scenic highway drive to Jodhpur. Tour the towering Mehrangarh Fort and walk through the blue Brahmin streets of the Old City."
+      },
+      {
+            day: 7,
+            title: "Jodhpur to Jaipur via Pushkar",
+            description: "Drive toward Jaipur, stopping at the sacred oasis of Pushkar to visit the holy lake and rare Brahma Temple. Evening arrival in the Pink City."
+      },
+      {
+            day: 8,
+            title: "Jaipur Pink City & Amber Fort",
+            description: "Ascend the ramparts of Amber Fort, photograph Hawa Mahal, and explore City Palace museum and Jantar Mantar UNESCO observatory."
+      },
+      {
+            day: 9,
+            title: "Jaipur to Delhi & Departure",
+            description: "After breakfast, relax on the expressway journey back to Delhi. Direct transfer to Delhi International Airport for your departure."
+      }
+],
     inclusions: ['Private car with chauffeur and all road travel costs included'],
     exclusions: ['Hotels and meals'],
-    faqs: [{ q: 'What should we wear in the desert?', a: 'Comfortable layers are best: warm sun during the day, but chilly desert nights during the winter months.' }],
+    faqs: [
+      {
+            q: "What is the best vehicle for the Desert Circuit tour?",
+            a: "We recommend the Toyota Innova Crysta for this 9-day desert journey, as it offers superior suspension, high road clearance, and spacious air-conditioned comfort on desert highways."
+      },
+      {
+            q: "Are roadside stops and photography breaks allowed?",
+            a: "Yes, 100%. All tours are private and tailor-made. You can ask your chauffeur to pause at any scenic point, roadside cafe, or local handicraft workshop."
+      }
+],
     rating: 4.9,
     reviewsCount: 65
   },
@@ -515,21 +844,74 @@ export const TOURS: Tour[] = [
       'Sunrise Taj Mahal in Agra and Amber Fort in Jaipur'
     ],
     itinerary: [
-      { day: 1, title: 'Arrival in Delhi', description: 'Airport greeting and hotel check-in.' },
-      { day: 2, title: 'Delhi to Jaipur', description: 'Scenic drive to the Pink City.' },
-      { day: 3, title: 'Jaipur', description: 'Amber Fort, City Palace, and Hawa Mahal.' },
-      { day: 4, title: 'Jaipur to Pushkar', description: 'Sacred lake and Brahma Temple.' },
-      { day: 5, title: 'Pushkar to Udaipur', description: 'Drive through the Aravalli hills to Udaipur.' },
-      { day: 6, title: 'Udaipur', description: 'City Palace complex and Lake Pichola cruise.' },
-      { day: 7, title: 'Udaipur - Ranakpur - Jodhpur', description: 'Marble Jain temples and arrival in the Blue City.' },
-      { day: 8, title: 'Jodhpur to Agra', description: 'Express highway journey toward Agra.' },
-      { day: 9, title: 'Agra (Taj Mahal)', description: 'Sunrise at the Taj Mahal and tour of Agra Fort.' },
-      { day: 10, title: 'Agra to Delhi', description: 'Return drive to Delhi.' },
-      { day: 11, title: 'Delhi & Departure', description: 'Airport transfer for your return flight.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Delhi",
+            description: "Private airport meet-and-greet with your chauffeur. Hotel transfer and orientation drive."
+      },
+      {
+            day: 2,
+            title: "Delhi to Mandawa",
+            description: "Drive into Shekhawati; walking tour of open-air frescoed merchant havelis."
+      },
+      {
+            day: 3,
+            title: "Mandawa to Bikaner",
+            description: "Scenic desert drive; explore the unconquered Junagarh Fort and old markets."
+      },
+      {
+            day: 4,
+            title: "Bikaner to Jaisalmer",
+            description: "Drive across the Thar Desert to the golden citadel of Jaisalmer; sunset at Bada Bagh."
+      },
+      {
+            day: 5,
+            title: "Jaisalmer Fort & Sam Sand Dunes",
+            description: "Tour Jaisalmer Living Fort, Jain temples, and Patwon Haveli. Evening camel safari in the dunes."
+      },
+      {
+            day: 6,
+            title: "Jaisalmer to Jodhpur",
+            description: "Drive to the Blue City; tour the colossal Mehrangarh Fort and Jaswant Thada cenotaph."
+      },
+      {
+            day: 7,
+            title: "Jodhpur to Udaipur via Ranakpur",
+            description: "Scenic drive through Aravalli hills, visiting the 1,444 marble pillars of Ranakpur Jain Temple."
+      },
+      {
+            day: 8,
+            title: "Udaipur City of Lakes",
+            description: "Explore City Palace, Jagdish Temple, and enjoy a private sunset boat ride on Lake Pichola."
+      },
+      {
+            day: 9,
+            title: "Udaipur to Pushkar",
+            description: "Drive to sacred Pushkar; visit the 52 holy lake ghats and Brahma Temple."
+      },
+      {
+            day: 10,
+            title: "Pushkar to Jaipur",
+            description: "Morning drive to Jaipur; afternoon visiting Amber Fort ramparts and Hawa Mahal."
+      },
+      {
+            day: 11,
+            title: "Jaipur to Delhi & Departure",
+            description: "Expressway drive back to Delhi; direct transfer to Delhi International Airport."
+      }
+],
     inclusions: ['Dedicated private car and chauffeur for all 11 days'],
     exclusions: ['Hotels and meals'],
-    faqs: [{ q: 'Is the vehicle air conditioning effective?', a: 'All our vehicles feature modern, high-capacity dual AC systems running continuously for your comfort.' }],
+    faqs: [
+      {
+            q: "Is this 11-day tour customizable?",
+            a: "Yes, 100%. You can add extra days in Udaipur, swap destinations, or modify departure timings to match your flight schedule."
+      },
+      {
+            q: "Are all highway tolls and driver allowances included?",
+            a: "Yes, all fuel, state border transit taxes, expressway tolls, parking fees, and driver lodging allowances are fully covered."
+      }
+],
     rating: 4.93,
     reviewsCount: 82
   },
@@ -555,20 +937,69 @@ export const TOURS: Tour[] = [
       'The red sandstone Agra Fort and the Taj Mahal'
     ],
     itinerary: [
-      { day: 1, title: 'Delhi to Agra', description: 'Expressway drive to Agra.' },
-      { day: 2, title: 'Agra to Jaipur', description: 'Sunrise Taj Mahal, then drive to Jaipur via Fatehpur Sikri.' },
-      { day: 3, title: 'Jaipur', description: 'Amber, Jaigarh, and Nahargarh hilltop forts.' },
-      { day: 4, title: 'Jaipur - Chittorgarh - Udaipur', description: 'Explore legendary Chittorgarh fortress en-route to Udaipur.' },
-      { day: 5, title: 'Udaipur', description: 'City Palace and Lake Pichola.' },
-      { day: 6, title: 'Udaipur - Kumbhalgarh - Jodhpur', description: 'The second longest continuous wall in the world at Kumbhalgarh.' },
-      { day: 7, title: 'Jodhpur', description: 'Mehrangarh Fort and Blue City walk.' },
-      { day: 8, title: 'Jodhpur to Delhi', description: 'Return highway drive or flight transfer.' },
-      { day: 9, title: 'Delhi Heritage', description: 'Historic monuments of Delhi.' },
-      { day: 10, title: 'Departure', description: 'Airport transfer for your return flight.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Delhi",
+            description: "Chauffeur welcome at Delhi Airport. Transfer to hotel and introductory monument drive."
+      },
+      {
+            day: 2,
+            title: "Delhi to Agra & Sunset Taj Mahal",
+            description: "Drive via Yamuna Expressway to Agra; explore Agra Fort and view the Taj Mahal from Mehtab Bagh at sunset."
+      },
+      {
+            day: 3,
+            title: "Sunrise Taj Mahal, Fatehpur Sikri & Jaipur",
+            description: "Sunrise entrance to the Taj Mahal. Drive to Jaipur with stops at Fatehpur Sikri and Chand Baori stepwell."
+      },
+      {
+            day: 4,
+            title: "Jaipur Pink City & Amber Fort",
+            description: "Full day in Jaipur: Amber Fort, Palace of Winds (Hawa Mahal), City Palace, and Jantar Mantar."
+      },
+      {
+            day: 5,
+            title: "Jaipur to Pushkar",
+            description: "Drive to sacred Pushkar Lake; visit Brahma Temple and enjoy desert views from Savitri Temple."
+      },
+      {
+            day: 6,
+            title: "Pushkar to Jodhpur (The Blue City)",
+            description: "Drive to Jodhpur; explore the massive Mehrangarh Fort and the blue Brahmin lanes."
+      },
+      {
+            day: 7,
+            title: "Jodhpur to Udaipur via Ranakpur",
+            description: "Scenic mountain drive through Aravalli hills with stop at Ranakpur Jain Temple."
+      },
+      {
+            day: 8,
+            title: "Udaipur: City of Lakes",
+            description: "City Palace complex, Jagdish Temple, and a romantic private boat cruise on Lake Pichola."
+      },
+      {
+            day: 9,
+            title: "Udaipur Heritage & Crafts",
+            description: "Visit Monsoon Palace and artisan craft markets celebrated for miniature paintings."
+      },
+      {
+            day: 10,
+            title: "Udaipur Departure or Delhi Transit",
+            description: "Transfer to Udaipur Airport or scenic highway return journey to Delhi."
+      }
+],
     inclusions: ['Private car with chauffeur for all 10 days'],
     exclusions: ['Hotels and meals'],
-    faqs: [{ q: 'Are there many stairs to climb at the forts?', a: 'Your chauffeur drops you at the nearest drivable gates to minimize steep walking.' }],
+    faqs: [
+      {
+            q: "Which forts are included in this tour?",
+            a: "This tour covers India's grandest royal fortresses: Agra Fort, Amber Fort in Jaipur, Mehrangarh Fort in Jodhpur, and City Palace in Udaipur."
+      },
+      {
+            q: "Can we book an Innova Crysta for this trip?",
+            a: "Yes, our modern Toyota Innova Crysta fleet is available for this entire circuit, providing executive comfort."
+      }
+],
     rating: 4.92,
     reviewsCount: 78
   },
@@ -595,20 +1026,65 @@ export const TOURS: Tour[] = [
       'Discreet, professional chauffeur on standby at all times'
     ],
     itinerary: [
-      { day: 1, title: 'Welcome to India', description: 'Arrival in Delhi and private transfer.' },
-      { day: 2, title: 'Delhi to Agra', description: 'Drive toward the city of eternal love.' },
-      { day: 3, title: 'The Taj Mahal & Jaipur', description: 'Dawn at the monument of love, then drive to Jaipur.' },
-      { day: 4, title: 'Romantic Jaipur', description: 'Palace of Winds, Amber Fort, and royal gardens.' },
-      { day: 5, title: 'Jaipur to Udaipur', description: 'Journey to Asia\'s most romantic lakeside city.' },
-      { day: 6, title: 'Lakeside Udaipur', description: 'Private boat cruise and City Palace exploration.' },
-      { day: 7, title: 'Udaipur to Mount Abu', description: 'Cool forested hill station and sunset at Nakki Lake.' },
-      { day: 8, title: 'Mount Abu Sightseeing', description: 'Intricately carved Dilwara Jain temples.' },
-      { day: 9, title: 'Return to Delhi', description: 'Flight or highway transit back to Delhi.' },
-      { day: 10, title: 'Return Flight', description: 'Airport transfer for your journey home.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Delhi",
+            description: "Meet your private chauffeur; transfer to hotel and orientation drive around India Gate."
+      },
+      {
+            day: 2,
+            title: "Delhi to Agra & Mehtab Bagh Sunset",
+            description: "Scenic drive to Agra along Yamuna Expressway; visit Agra Fort and sunset vista of the Taj Mahal."
+      },
+      {
+            day: 3,
+            title: "Sunrise Taj Mahal & Drive to Jaipur",
+            description: "Sunrise entrance to the Taj Mahal, the monument of eternal love. Drive to Jaipur via Fatehpur Sikri."
+      },
+      {
+            day: 4,
+            title: "Jaipur: Amber Fort & Royal Palaces",
+            description: "Ascend Amber Fort ramparts, photograph Hawa Mahal, and explore royal City Palace courtyards."
+      },
+      {
+            day: 5,
+            title: "Jaipur to Pushkar Oasis",
+            description: "Drive to holy Pushkar; walk along sacred lake ghats and witness peaceful evening prayer ceremonies."
+      },
+      {
+            day: 6,
+            title: "Pushkar to Jodhpur (The Blue City)",
+            description: "Drive to Jodhpur; explore Mehrangarh Fort and enjoy rooftop candlelight dining overlooking the fort."
+      },
+      {
+            day: 7,
+            title: "Jodhpur to Udaipur via Ranakpur",
+            description: "Drive through Aravalli hills, visiting Ranakpur Jain Temple, arriving in romantic Udaipur."
+      },
+      {
+            day: 8,
+            title: "Udaipur: Venice of the East",
+            description: "Tour City Palace, Saheliyon Ki Bari, and embark on a private sunset boat ride on Lake Pichola."
+      },
+      {
+            day: 9,
+            title: "Romantic Udaipur Day at Leisure",
+            description: "Visit Monsoon Palace (Sajjangarh) for sunset vistas and enjoy lakeside cafe dining."
+      },
+      {
+            day: 10,
+            title: "Udaipur Departure / Delhi Transfer",
+            description: "Transfer to Udaipur Airport or coordinated highway transit to Delhi."
+      }
+],
     inclusions: ['Executive private vehicle with dedicated chauffeur'],
     exclusions: ['Hotels and meals'],
-    faqs: [{ q: 'What language does the chauffeur speak?', a: 'All our chauffeurs speak clear, conversational English and provide courteous service.' }],
+    faqs: [
+      {
+            q: "Is this tour suitable for couples and honeymooners?",
+            a: "Yes, this is our premier romantic circuit, featuring luxury heritage stays, private sunset boat rides in Udaipur, and scenic drives with a private chauffeur."
+      }
+],
     rating: 4.96,
     reviewsCount: 84
   },
@@ -634,25 +1110,90 @@ export const TOURS: Tour[] = [
       'Days of peaceful tropical beach relaxation in Goa'
     ],
     itinerary: [
-      { day: 1, title: 'Delhi', description: 'Arrival and private greeting.' },
-      { day: 2, title: 'Delhi to Agra', description: 'Yamuna Expressway and Agra Fort.' },
-      { day: 3, title: 'Taj Mahal to Jaipur', description: 'Sunrise at the Taj Mahal and drive to the Pink City.' },
-      { day: 4, title: 'Jaipur', description: 'Amber Fort and City Palace.' },
-      { day: 5, title: 'Jaipur to Udaipur', description: 'Scenic drive to Udaipur.' },
-      { day: 6, title: 'Udaipur', description: 'Lake Pichola boat cruise.' },
-      { day: 7, title: 'Udaipur to Mumbai (Flight)', description: 'Gateway of India and Marine Drive.' },
-      { day: 8, title: 'Mumbai to Goa (Flight)', description: 'Arrive at the beaches of Goa.' },
-      { day: 9, title: 'Goa Beaches', description: 'Tropical relaxation on golden sands.' },
-      { day: 10, title: 'Historic Old Goa', description: 'Portuguese UNESCO churches.' },
-      { day: 11, title: 'Goa Coastal Leisure', description: 'Seaside dining and relaxation.' },
-      { day: 12, title: 'Goa Spice Plantations', description: 'Organic tropical spice tour.' },
-      { day: 13, title: 'Goa Sunset', description: 'Beach sunset and relaxation.' },
-      { day: 14, title: 'Goa to Delhi (Flight)', description: 'Return to Delhi for craft shopping.' },
-      { day: 15, title: 'International Departure', description: 'Airport transfer for your return flight.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Delhi",
+            description: "Airport pickup by private driver and hotel transfer."
+      },
+      {
+            day: 2,
+            title: "Delhi Sightseeing",
+            description: "Tour Old and New Delhi: Jama Masjid, Chandni Chowk, Qutub Minar, and India Gate."
+      },
+      {
+            day: 3,
+            title: "Delhi to Agra",
+            description: "Expressway drive to Agra; visit Agra Fort and sunset view of the Taj Mahal."
+      },
+      {
+            day: 4,
+            title: "Taj Mahal to Jaipur via Fatehpur Sikri",
+            description: "Sunrise Taj Mahal, followed by drive to Jaipur stopping at Fatehpur Sikri."
+      },
+      {
+            day: 5,
+            title: "Jaipur Pink City",
+            description: "Full day in Jaipur: Amber Fort, Hawa Mahal, City Palace, and Jantar Mantar."
+      },
+      {
+            day: 6,
+            title: "Jaipur to Pushkar",
+            description: "Drive to sacred Pushkar Lake; visit Brahma Temple and desert sunset point."
+      },
+      {
+            day: 7,
+            title: "Pushkar to Jodhpur",
+            description: "Drive to Jodhpur; explore Mehrangarh Fort and Jaswant Thada cenotaph."
+      },
+      {
+            day: 8,
+            title: "Jodhpur to Udaipur via Ranakpur",
+            description: "Scenic mountain drive visiting the carved marble pillars of Ranakpur Temple."
+      },
+      {
+            day: 9,
+            title: "Udaipur City of Lakes",
+            description: "City Palace, Jagdish Temple, and sunset boat ride on Lake Pichola."
+      },
+      {
+            day: 10,
+            title: "Udaipur to Goa (Flight)",
+            description: "Transfer to Udaipur Airport for domestic flight to tropical Goa. Check in to beach resort."
+      },
+      {
+            day: 11,
+            title: "Goa Beach Relaxation",
+            description: "Full day of sun, sea, and relaxation on golden South Goa beaches."
+      },
+      {
+            day: 12,
+            title: "Old Goa Heritage Churches & Spice Plantation",
+            description: "Visit UNESCO Portuguese heritage churches in Old Goa and organic spice farm."
+      },
+      {
+            day: 13,
+            title: "Coastal Goa Leisure",
+            description: "Day at leisure enjoying water sports, coastal dining, and sunset strolls."
+      },
+      {
+            day: 14,
+            title: "Goa to Delhi (Flight)",
+            description: "Fly from Goa back to Delhi; evening free for artisan shopping."
+      },
+      {
+            day: 15,
+            title: "Delhi Departure",
+            description: "Chauffeur transfer to Delhi International Airport for your flight home."
+      }
+],
     inclusions: ['Dedicated car and chauffeur for all North India road transfers'],
     exclusions: ['Domestic flight tickets and hotel stays'],
-    faqs: [{ q: 'Do you provide airport transfers in Goa?', a: 'Yes, we coordinate all airport transfers and local sightseeing in Goa.' }],
+    faqs: [
+      {
+            q: "Are domestic flights included in this package?",
+            a: "We coordinate and book all domestic flight connections (Udaipur to Goa and Goa to Delhi) seamlessly with private airport chauffeur transfers included."
+      }
+],
     rating: 4.95,
     reviewsCount: 104
   },
@@ -678,15 +1219,40 @@ export const TOURS: Tour[] = [
       'Guru Shikhar peak, the highest mountain summit in Rajasthan'
     ],
     itinerary: [
-      { day: 1, title: 'Arrival in Udaipur', description: 'Airport greeting and hotel transfer.' },
-      { day: 2, title: 'Udaipur - Ranakpur - Mount Abu', description: 'Scenic drive through pine-forested mountains.' },
-      { day: 3, title: 'The Marvelous Dilwara Temples', description: 'Guided exploration of Dilwara and Nakki Lake.' },
-      { day: 4, title: 'Guru Shikhar & Return to Udaipur', description: 'Mountain summit vista and return to Udaipur.' },
-      { day: 5, title: 'Udaipur & Departure', description: 'Airport transfer for your flight.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Udaipur & Scenic Drive to Mount Abu",
+            description: "Meet your private chauffeur in Udaipur. Scenic mountain climb into the lush green Aravalli range toward Mount Abu, Rajasthan's only hill station. Evening boating on serene Nakki Lake."
+      },
+      {
+            day: 2,
+            title: "World-Renowned Dilwara Jain Temples",
+            description: "Full morning admiring the 11th-century Dilwara Marble Temples, globally celebrated for the world's most intricate and delicate stone carvings. Afternoon visit to Guru Shikhar peak."
+      },
+      {
+            day: 3,
+            title: "Mount Abu to Ranakpur & Kumbhalgarh Fort",
+            description: "Scenic mountain descent to Ranakpur Jain Temple (1,444 marble pillars). Continue to Kumbhalgarh Fort, home to the second-longest wall in the world after the Great Wall of China."
+      },
+      {
+            day: 4,
+            title: "Kumbhalgarh to Udaipur City of Lakes",
+            description: "Drive to Udaipur; explore the City Palace overlooking Lake Pichola, Jagdish Temple, and Saheliyon Ki Bari royal gardens."
+      },
+      {
+            day: 5,
+            title: "Udaipur & Departure",
+            description: "Morning boat cruise on Lake Pichola with views of the Lake Palace. Private chauffeur transfer to Udaipur Airport or Railway Station."
+      }
+],
     inclusions: ['Private vehicle with experienced mountain driver'],
     exclusions: ['Hotels and meals'],
-    faqs: [{ q: 'Is photography permitted inside Dilwara Temples?', a: 'Photography is strictly prohibited inside the inner shrines to preserve spiritual sanctity.' }],
+    faqs: [
+      {
+            q: "Why visit Mount Abu?",
+            a: "Mount Abu offers a refreshing, cool climate amidst lush green hills and houses the Dilwara Temples, widely regarded as the finest marble craftsmanship on earth."
+      }
+],
     rating: 4.88,
     reviewsCount: 52
   },
@@ -712,16 +1278,45 @@ export const TOURS: Tour[] = [
       'Traditional Rajasthani feast cooked over open embers'
     ],
     itinerary: [
-      { day: 1, title: 'Jodhpur to Bikaner', description: 'Arrival and visit Junagarh Fort.' },
-      { day: 2, title: 'Bikaner to Jaisalmer', description: 'Journey into the deep golden desert.' },
-      { day: 3, title: 'Jaisalmer Fort & Dunes', description: 'Patwon Haveli and depart for desert camp.' },
-      { day: 4, title: 'Caravan in the Dunes', description: 'Full day exploring the peaceful dunes of Khuri.' },
-      { day: 5, title: 'Jaisalmer to Jodhpur', description: 'Return drive to Jodhpur.' },
-      { day: 6, title: 'Jodhpur & Departure', description: 'Airport or station transfer.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Jodhpur",
+            description: "Private airport meet-and-greet with your chauffeur. Hotel transfer and afternoon tour of Mehrangarh Fort."
+      },
+      {
+            day: 2,
+            title: "Jodhpur to Bikaner",
+            description: "Scenic desert drive in your private vehicle to Bikaner; visit Junagarh Fort and Karni Mata Temple."
+      },
+      {
+            day: 3,
+            title: "Bikaner to Jaisalmer (The Golden City)",
+            description: "Highway journey across Thar Desert to Jaisalmer; sunset photography at Bada Bagh royal cenotaphs."
+      },
+      {
+            day: 4,
+            title: "Jaisalmer Fort & Thar Desert Camel Caravan",
+            description: "Morning tour of Jaisalmer Living Fort and Patwon Haveli. Afternoon camel caravan trek into the dunes of Sam with private tent camp stay."
+      },
+      {
+            day: 5,
+            title: "Sam Dunes - Kuldhara - Jodhpur",
+            description: "Visit the abandoned ghost village of Kuldhara and relax on the return highway journey to Jodhpur."
+      },
+      {
+            day: 6,
+            title: "Jodhpur Departure",
+            description: "Explore the Clock Tower spice markets and transfer to Jodhpur Airport or Railway Station."
+      }
+],
     inclusions: ['Private car and dedicated chauffeur for the entire journey'],
     exclusions: ['Tent accommodations and meals'],
-    faqs: [{ q: 'Is camel riding strenuous?', a: 'It is a gentle 1 to 2-hour leisurely trek suitable for travelers of all ages.' }],
+    faqs: [
+      {
+            q: "Is camel safari suitable for all ages?",
+            a: "Yes, our camel safaris are slow-paced, gentle, and fully guided by local desert herdsmen. Camel carts are also available for maximum comfort."
+      }
+],
     rating: 4.93,
     reviewsCount: 68
   },
@@ -747,18 +1342,55 @@ export const TOURS: Tour[] = [
       'Sunrise at the Taj Mahal in Agra'
     ],
     itinerary: [
-      { day: 1, title: 'Delhi to Sariska', description: 'Drive to the forested hills of Sariska.' },
-      { day: 2, title: 'Sariska to Jaipur', description: 'Morning game drive and drive to Jaipur.' },
-      { day: 3, title: 'Jaipur to Ranthambore', description: 'Drive to the famous tiger sanctuary.' },
-      { day: 4, title: 'Ranthambore Safari', description: 'Dual morning and afternoon jungle safaris.' },
-      { day: 5, title: 'Ranthambore to Bharatpur', description: 'Keoladeo Ghana National Bird Sanctuary.' },
-      { day: 6, title: 'Bharatpur - Fatehpur Sikri - Agra', description: 'UNESCO Mughal ghost city and drive to Agra.' },
-      { day: 7, title: 'Agra (Taj Mahal) to Delhi', description: 'Sunrise at the Taj Mahal and drive to Delhi.' },
-      { day: 8, title: 'Delhi & Departure', description: 'Airport transfer for your return flight.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Delhi",
+            description: "Chauffeur pickup at Delhi Airport and transfer to hotel."
+      },
+      {
+            day: 2,
+            title: "Delhi to Sariska Tiger Reserve",
+            description: "Scenic drive into the Aravalli hills of Alwar to Sariska National Park; afternoon 4x4 jungle safari."
+      },
+      {
+            day: 3,
+            title: "Sariska to Jaipur",
+            description: "Morning safari drive in Sariska. Afternoon drive to Jaipur; evening visit to Birla Temple."
+      },
+      {
+            day: 4,
+            title: "Jaipur Pink City & Amber Fort",
+            description: "Full day in Jaipur: Amber Fort, Palace of Winds (Hawa Mahal), City Palace, and Jantar Mantar."
+      },
+      {
+            day: 5,
+            title: "Jaipur to Ranthambore Tiger Reserve",
+            description: "Drive to Sawai Madhopur; check in to your wildlife jungle resort."
+      },
+      {
+            day: 6,
+            title: "Ranthambore Tiger Safaris",
+            description: "Morning and afternoon 4x4 open Gypsy safaris tracking Royal Bengal Tigers in Ranthambore."
+      },
+      {
+            day: 7,
+            title: "Ranthambore to Bharatpur Bird Sanctuary & Agra",
+            description: "Drive to Keoladeo National Park (Bharatpur), a UNESCO wetland sanctuary home to over 370 bird species. Continue to Agra."
+      },
+      {
+            day: 8,
+            title: "Sunrise Taj Mahal & Return to Delhi",
+            description: "Early morning entrance to the Taj Mahal at dawn. Visit Agra Fort, then expressway drive back to Delhi Airport."
+      }
+],
     inclusions: ['Private air-conditioned car and chauffeur for all 8 days'],
     exclusions: ['Park entrance permits and hotel accommodations'],
-    faqs: [{ q: 'What is the best month for birdwatching in Bharatpur?', a: 'November through February sees thousands of rare migratory birds arriving from Siberia and Central Asia.' }],
+    faqs: [
+      {
+            q: "What wildlife can we see on this tour?",
+            a: "This tour covers Royal Bengal tigers, leopards, striped hyenas, sambar deer, marsh crocodiles in Ranthambore and Sariska, plus Siberian cranes and rare migratory birds in Bharatpur."
+      }
+],
     rating: 4.92,
     reviewsCount: 79
   },
@@ -784,20 +1416,65 @@ export const TOURS: Tour[] = [
       'Interacting directly with traditional potters and silversmiths'
     ],
     itinerary: [
-      { day: 1, title: 'Delhi', description: 'Arrival and greeting.' },
-      { day: 2, title: 'Delhi to Mandawa', description: 'Frescoed havelis of Shekhawati.' },
-      { day: 3, title: 'Mandawa to Bikaner', description: 'Miniature painting workshops.' },
-      { day: 4, title: 'Bikaner to Jodhpur', description: 'Drive to the Blue City.' },
-      { day: 5, title: 'The Bishnoi Villages', description: 'Jeep safari through rural tribal settlements.' },
-      { day: 6, title: 'Jodhpur to Pushkar', description: 'Drive to sacred Pushkar.' },
-      { day: 7, title: 'Pushkar to Jaipur', description: 'Arrival in the Pink City.' },
-      { day: 8, title: 'Jaipur Crafts & Bazaars', description: 'Master artisan workshops.' },
-      { day: 9, title: 'Jaipur to Delhi', description: 'Return highway drive to Delhi.' },
-      { day: 10, title: 'Delhi & Departure', description: 'Airport transfer for your return flight.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Delhi",
+            description: "Private airport meet-and-greet with your chauffeur and transfer to hotel."
+      },
+      {
+            day: 2,
+            title: "Delhi to Shekhawati (Mandawa)",
+            description: "Drive to Mandawa; walking tour of open-air art gallery merchant havelis with colorful frescoes."
+      },
+      {
+            day: 3,
+            title: "Mandawa to Bikaner",
+            description: "Drive across desert highways; explore Junagarh Fort and local camel farm."
+      },
+      {
+            day: 4,
+            title: "Bikaner to Jaisalmer",
+            description: "Scenic drive across Thar Desert to Jaisalmer; sunset over the golden sandstone city."
+      },
+      {
+            day: 5,
+            title: "Jaisalmer Fort & Desert Folk Festival Night",
+            description: "Tour Jaisalmer Fort and Jain temples. Afternoon camel trek in Sam Dunes with live folk music."
+      },
+      {
+            day: 6,
+            title: "Jaisalmer to Jodhpur (Bishnoi Village Safari)",
+            description: "Drive to Jodhpur; take a private village safari to Bishnoi settlements, famous for wildlife conservation, pottery, and durry rug weaving."
+      },
+      {
+            day: 7,
+            title: "Jodhpur Mehrangarh Fort & Drive to Pushkar",
+            description: "Tour Mehrangarh Fort, Jaswant Thada, then drive to holy Pushkar Lake."
+      },
+      {
+            day: 8,
+            title: "Pushkar to Jaipur",
+            description: "Visit Brahma Temple and lake ghats; drive to Jaipur with evening artisan bazaar visit."
+      },
+      {
+            day: 9,
+            title: "Jaipur Pink City & Amber Fort",
+            description: "Full day: Amber Fort ramparts, Hawa Mahal, City Palace, and Jantar Mantar observatory."
+      },
+      {
+            day: 10,
+            title: "Jaipur to Delhi & Departure",
+            description: "Return drive to Delhi; direct transfer to Delhi International Airport."
+      }
+],
     inclusions: ['Private vehicle with dedicated chauffeur for all 10 days'],
     exclusions: ['Hotels and meals'],
-    faqs: [{ q: 'Can we purchase crafts directly from the artisans?', a: 'Yes! Our drivers adhere to a strict zero-commission policy and take you only to genuine village craftspeople.' }],
+    faqs: [
+      {
+            q: "What is the Bishnoi Village Safari?",
+            a: "The Bishnoi are India's pioneering eco-conservationists. You visit their pristine rural hamlets to observe blackbuck deer, traditional pottery, and hand-woven carpet making."
+      }
+],
     rating: 4.96,
     reviewsCount: 89
   },
@@ -822,19 +1499,60 @@ export const TOURS: Tour[] = [
       'Comfortable private road transfers with regular refreshment pauses'
     ],
     itinerary: [
-      { day: 1, title: 'Delhi', description: 'Arrival and private transfer.' },
-      { day: 2, title: 'Delhi to Jaipur', description: 'Drive to the Pink City.' },
-      { day: 3, title: 'Jaipur', description: 'Amber Fort and palaces.' },
-      { day: 4, title: 'Jaipur to Pushkar', description: 'Holy lake and ghats.' },
-      { day: 5, title: 'Pushkar to Udaipur', description: 'Scenic drive to lakeside Udaipur.' },
-      { day: 6, title: 'Udaipur', description: 'Lake Pichola and City Palace.' },
-      { day: 7, title: 'Udaipur to Agra', description: 'Highway drive or express train to Agra.' },
-      { day: 8, title: 'Agra (Taj Mahal) to Delhi', description: 'Sunrise Taj Mahal and drive to Delhi.' },
-      { day: 9, title: 'Delhi & Departure', description: 'Airport transfer for your return flight.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Delhi",
+            description: "Chauffeur welcome at Delhi Airport and hotel transfer."
+      },
+      {
+            day: 2,
+            title: "Delhi to Mandawa",
+            description: "Scenic drive into Shekhawati; walking tour of frescoed mansions."
+      },
+      {
+            day: 3,
+            title: "Mandawa to Bikaner",
+            description: "Drive across desert; explore Junagarh Fort and old bazaars."
+      },
+      {
+            day: 4,
+            title: "Bikaner to Jodhpur",
+            description: "Drive to the Blue City; visit Mehrangarh Fort and indigo alleys."
+      },
+      {
+            day: 5,
+            title: "Jodhpur to Udaipur via Ranakpur",
+            description: "Scenic mountain drive visiting the 1,444 marble pillars of Ranakpur Temple."
+      },
+      {
+            day: 6,
+            title: "Udaipur City of Lakes",
+            description: "City Palace, Jagdish Temple, and sunset boat ride on Lake Pichola."
+      },
+      {
+            day: 7,
+            title: "Udaipur to Pushkar",
+            description: "Drive to sacred Pushkar Lake; visit Brahma Temple and rose gardens."
+      },
+      {
+            day: 8,
+            title: "Pushkar to Jaipur",
+            description: "Drive to the Pink City; visit Amber Fort, Hawa Mahal, and local markets."
+      },
+      {
+            day: 9,
+            title: "Jaipur to Delhi & Departure",
+            description: "Expressway return journey to Delhi; transfer to Delhi Airport."
+      }
+],
     inclusions: ['Private air-conditioned car with dedicated chauffeur for 9 days'],
     exclusions: ['Hotels and meals'],
-    faqs: [{ q: 'Are long driving stretches tiring?', a: 'We schedule regular stops at clean, modern expressway plazas with hygienic restrooms and cafes.' }],
+    faqs: [
+      {
+            q: "Why is Rajasthan called Colorful?",
+            a: "Rajasthan's royal cities each showcase a unique color identity: Jaipur (The Pink City), Jodhpur (The Blue City), Jaisalmer (The Golden City), and Udaipur (The White City)."
+      }
+],
     rating: 4.94,
     reviewsCount: 115
   },
@@ -860,15 +1578,40 @@ export const TOURS: Tour[] = [
       'Ranakpur Jain Temples with 1,444 individually carved marble pillars'
     ],
     itinerary: [
-      { day: 1, title: 'Udaipur', description: 'Arrival, hotel transfer, and City Palace.' },
-      { day: 2, title: 'Udaipur to Kumbhalgarh', description: 'Explore the Great Wall of India at Kumbhalgarh.' },
-      { day: 3, title: 'Kumbhalgarh - Ranakpur - Jodhpur', description: 'Marble wonders of Ranakpur and drive to Jodhpur.' },
-      { day: 4, title: 'Jodhpur (Mehrangarh)', description: 'Explore Mehrangarh Fort and blue alleys.' },
-      { day: 5, title: 'Return to Udaipur & Departure', description: 'Drive back to Udaipur for your flight.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Udaipur (City of Lakes)",
+            description: "Chauffeur welcome at Udaipur Airport. Check in to lakeside hotel and evening boat cruise on Lake Pichola."
+      },
+      {
+            day: 2,
+            title: "Udaipur Royal Palaces & Temples",
+            description: "Comprehensive tour of City Palace, Jagdish Temple, Saheliyon Ki Bari, and vintage car collection."
+      },
+      {
+            day: 3,
+            title: "Udaipur to Chittorgarh Fort & Kumbhalgarh",
+            description: "Excursion to Chittorgarh Fort (Vijay Stambha, Padmini Palace), continuing to Kumbhalgarh Fort."
+      },
+      {
+            day: 4,
+            title: "Kumbhalgarh to Ranakpur & Mount Abu",
+            description: "Tour Ranakpur Jain Temple, then ascend into the cool pine-scented hills of Mount Abu."
+      },
+      {
+            day: 5,
+            title: "Dilwara Temples & Udaipur Departure",
+            description: "Marvel at Dilwara marble carvings, Nakki Lake, and descend to Udaipur Airport for departure."
+      }
+],
     inclusions: ['Private vehicle and chauffeur for the entire circuit'],
     exclusions: ['Hotels and meals'],
-    faqs: [{ q: 'Is the road to Ranakpur scenic?', a: 'Yes, it traverses stunning winding mountain passes through the lush Aravalli valley.' }],
+    faqs: [
+      {
+            q: "What is the historical significance of Mewar?",
+            a: "Mewar is the proudest dynasty of Rajasthan, famous for legendary warriors Maharana Pratap and Rana Sanga who defended their freedom from the hill fortresses of Chittorgarh and Kumbhalgarh."
+      }
+],
     rating: 4.93,
     reviewsCount: 57
   },
@@ -894,16 +1637,45 @@ export const TOURS: Tour[] = [
       'Palace of Winds and Amber Fort in Jaipur'
     ],
     itinerary: [
-      { day: 1, title: 'Delhi to Agra', description: 'Arrival and tour of Agra Fort.' },
-      { day: 2, title: 'Taj Mahal to Ranthambore', description: 'Sunrise at the Taj Mahal, then drive to Ranthambore.' },
-      { day: 3, title: 'Dual Safari in Ranthambore', description: 'Morning and afternoon jungle game drives.' },
-      { day: 4, title: 'Ranthambore to Jaipur', description: 'Drive to the Pink City.' },
-      { day: 5, title: 'Jaipur', description: 'Amber Fort and City Palace.' },
-      { day: 6, title: 'Jaipur to Delhi & Departure', description: 'Highway drive back to Delhi for your flight.' }
-    ],
+      {
+            day: 1,
+            title: "Arrival in Delhi",
+            description: "Chauffeur welcome at Delhi Airport and hotel transfer."
+      },
+      {
+            day: 2,
+            title: "Delhi to Agra & Sunset Taj Mahal",
+            description: "Drive along Yamuna Expressway to Agra; explore Agra Fort and sunset Taj Mahal view."
+      },
+      {
+            day: 3,
+            title: "Taj Mahal to Ranthambore Tiger Reserve",
+            description: "Sunrise entrance to the Taj Mahal. Drive to Sawai Madhopur; check in to jungle lodge."
+      },
+      {
+            day: 4,
+            title: "Ranthambore Jungle Safari Drives",
+            description: "Morning and afternoon 4x4 open-top Gypsy safaris tracking Royal Bengal Tigers."
+      },
+      {
+            day: 5,
+            title: "Ranthambore to Jaipur",
+            description: "Drive to Jaipur; explore Amber Fort, Hawa Mahal, and City Palace."
+      },
+      {
+            day: 6,
+            title: "Jaipur to Delhi & Departure",
+            description: "Expressway return drive to Delhi; airport drop-off for return flight."
+      }
+],
     inclusions: ['Private car with chauffeur for all journeys'],
     exclusions: ['Safari permits and hotel stays'],
-    faqs: [{ q: 'How many passengers fit in a safari jeep?', a: 'Gypsy jeeps seat up to 6 passengers plus an authorized naturalist guide and park ranger.' }],
+    faqs: [
+      {
+            q: "Can we see tigers on a short 6-day tour?",
+            a: "Yes! Ranthambore is India's most accessible tiger reserve, located just 3.5 hours from Jaipur, making it ideal for combining with the Golden Triangle."
+      }
+],
     rating: 4.91,
     reviewsCount: 64
   },
