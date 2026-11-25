@@ -54,7 +54,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-3 group">
           <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-[#0b1329] to-[#162044] p-0.5 flex items-center justify-center text-white shadow-md shadow-amber-600/20 border border-amber-400/30 group-hover:scale-105 transition-transform overflow-hidden relative">
             <Image
-              src="/images/brand-logo.jpg"
+              src="/images/brand-logo.webp"
               alt="Autista Privato India Logo"
               width={44}
               height={44}

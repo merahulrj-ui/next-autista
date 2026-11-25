@@ -25,7 +25,7 @@ export const DESTINATIONS: Destination[] = [
     italianName: "Jaipur (The Pink City)",
     tagline: "The Royal Capital of Rajasthan, famed for majestic hill forts and terracotta palaces",
     description: "Founded in 1727 by the visionary astronomer-king Maharaja Sawai Jai Singh II, Jaipur is the vibrant capital of Rajasthan and a cornerstone of India's world-famous Golden Triangle. Renowned for its distinctive terracotta-pink facades—painted in 1876 to welcome Prince Albert—the city blends regal Rajput architecture with grand Mughal design, bustling open-air craft bazaars, and opulent heritage palace hotels.",
-    image: "/images/tour/jaipur.jpg",
+    image: "/images/tour/jaipur.webp",
     topAttractions: [
       { name: "Amber Fort & Palace", desc: "A colossal hilltop fortress featuring the shimmering Sheesh Mahal (Mirror Palace) and breathtaking views over Maota Lake." },
       { name: "Hawa Mahal (Palace of Winds)", desc: "The five-story iconic honeycomb facade with 953 finely latticed jharokha windows designed for royal women to observe city street life." },
@@ -46,7 +46,7 @@ export const DESTINATIONS: Destination[] = [
     italianName: "Udaipur (The City of Lakes)",
     tagline: "The Venice of the East: floating marble palaces, tranquil waters, and timeless romance",
     description: "Cradled by the ancient Aravalli Hills and reflected in the silvery waters of Lake Pichola, Udaipur is widely celebrated as the most romantic city in Asia. Built by Maharana Udai Singh II in 1559 as the capital of the Mewar Kingdom, Udaipur captivates international travelers with its gleaming white marble palaces, tranquil lakeside ghats, ornate havelis, and lush royal garden courtyards.",
-    image: "/images/tour/udaipur.jpg",
+    image: "/images/tour/udaipur.webp",
     topAttractions: [
       { name: "City Palace of Udaipur", desc: "Rajasthan's largest royal palace complex, featuring ornate mirrored halls, peacock courtyards, and panoramic terraces overlooking Lake Pichola." },
       { name: "Lake Pichola & Jag Mandir Island", desc: "A tranquil sunset cruise on the historic lake, offering close-up views of the iconic floating Lake Palace (Taj Lake Palace)." },
@@ -67,7 +67,7 @@ export const DESTINATIONS: Destination[] = [
     italianName: "Jodhpur (The Blue City)",
     tagline: "In the shadow of the mighty Mehrangarh Fort and indigo-painted historic alleys",
     description: "Rising dramatically above the Thar Desert on a 400-foot rocky precipice, Jodhpur is anchored by the titanic Mehrangarh Fort. Known worldwide as the 'Blue City' for the sea of indigo-washed Brahmin houses in the Brahmapuri district, Jodhpur offers a rich tapestry of warrior heritage, traditional spice bazaars, antique timber crafts, and warm Marwari hospitality.",
-    image: "/images/tour/jodhpur.jpg",
+    image: "/images/tour/jodhpur.webp",
     topAttractions: [
       { name: "Mehrangarh Fort", desc: "One of India's largest and best-preserved hill fortresses, described by Rudyard Kipling as 'the work of giants' with an extraordinary royal museum." },
       { name: "Jaswant Thada Memorial", desc: "A 19th-century royal marble cenotaph carved from translucent Makrana marble, surrounded by landscaped gardens and a peaceful lake." },
@@ -88,7 +88,7 @@ export const DESTINATIONS: Destination[] = [
     italianName: "Jaisalmer (The Golden City)",
     tagline: "A living medieval sandstone citadel rising dramatically from the golden dunes of the Thar",
     description: "Perched near the western edge of the Great Thar Desert, Jaisalmer looks as if it were plucked directly from the pages of Arabian Nights. Constructed from rich yellow sandstone that glows like pure honey in the late afternoon sun, it is home to one of the world's few remaining living forts, surrounded by ornate merchant havelis carved with lace-like precision and rolling desert dunes.",
-    image: "/images/tour/jaisalmer.jpg",
+    image: "/images/tour/jaisalmer.webp",
     topAttractions: [
       { name: "Jaisalmer Living Fort (Sonar Qila)", desc: "A UNESCO World Heritage fortress housing one-fourth of the city's population, medieval Jain temples, and ornate palace quarters." },
       { name: "Patwon Ki Haveli", desc: "The grandest five-story cluster of merchant mansions, featuring intricately sculpted sandstone jharokhas and antique murals." },
@@ -109,7 +109,7 @@ export const DESTINATIONS: Destination[] = [
     italianName: "Bikaner (The Caravan City)",
     tagline: "Unconquered desert citadels, red sandstone palaces, and ancient caravan trading traditions",
     description: "Founded in 1488 by Rajput warrior Rao Bika, Bikaner is an authentic desert outpost that escaped mass commercialization while preserving its aristocratic heritage. Junagarh Fort stands as one of the very few major fortresses in Rajasthan never captured by enemy forces, housing remarkably preserved royal chambers adorned with gold leaf, Bohemian crystal, and Italian tiles.",
-    image: "/images/tour/bikaner.jpg",
+    image: "/images/tour/bikaner.webp",
     topAttractions: [
       { name: "Junagarh Fort Complex", desc: "A formidable 16th-century fortress complex with opulent interiors including the Anup Mahal, Badal Mahal, and Chandra Mahal." },
       { name: "Lalgarh Palace & Heritage Museum", desc: "An imposing red sandstone palace designed by Sir Swinton Jacob, blending Indo-Saracenic grandeur with lush lawns." },
@@ -129,7 +129,7 @@ export const DESTINATIONS: Destination[] = [
     italianName: "Pushkar (The Sacred Oasis & Camel Fair)",
     tagline: "The mystical energy of the holy lake, the rare Brahma Temple, and the world-famous Autumn Fair",
     description: "Pushkar is one of the most sacred pilgrimage centers in Hinduism. Encircled by 52 bathing ghats around a sacred desert lake—mythologically created when Lord Brahma dropped a lotus petal to earth—the town exudes timeless spiritual serenity. It is home to the world's most prominent temple dedicated to Lord Brahma and hosts the internationally renowned Pushkar Camel Fair every November.",
-    image: "/images/tour/pushkar.jpg",
+    image: "/images/tour/pushkar.webp",
     topAttractions: [
       { name: "Pushkar Holy Lake & 52 Bathing Ghats", desc: "The spiritual heart of Pushkar, where pilgrims participate in evening aarti ceremonies amid ringing bells and chanting." },
       { name: "Jagatpita Brahma Mandir", desc: "The rare 14th-century temple dedicated to the Creator deity Lord Brahma, identifiable by its red spire and marble swan emblem." },
@@ -149,7 +149,7 @@ export const DESTINATIONS: Destination[] = [
     italianName: "Mount Abu (The Hill Station of Rajasthan)",
     tagline: "The only mountain sanctuary in Rajasthan: pine-scented forests, alpine lakes, and world-class marble temples",
     description: "Situated at an altitude of 1,220 meters among the highest peaks of the southern Aravalli range, Mount Abu is Rajasthan's only hill station. Famed for its cool microclimate, alpine Nakki Lake, and scenic forested ridgelines, it is internationally renowned for the Dilwara Jain Temples—widely considered the zenith of human marble craftsmanship.",
-    image: "/images/tour/mount-abu.jpg",
+    image: "/images/tour/mount-abu.webp",
     topAttractions: [
       { name: "Dilwara Jain Temples", desc: "Five 11th–13th century marble temples with ceilings, pillars, and arches carved with unbelievable gossamer-like delicacy." },
       { name: "Nakki Lake & Toad Rock", desc: "A picturesque alpine lake surrounded by lush hills, legendary rock formations, and boating facilities." },
@@ -169,7 +169,7 @@ export const DESTINATIONS: Destination[] = [
     italianName: "Ajmer (The Sufi Shrine of Khwaja Garib Nawaz)",
     tagline: "The historic epicentre of Sufi spirituality and communal harmony in India",
     description: "Just 14 kilometers from Pushkar across the Nag Pahar hills lies the historic city of Ajmer, founded in the 7th century. It is celebrated worldwide across the Islamic and Indian world for the Dargah Sharif—the sacred tomb of Sufi saint Khwaja Moinuddin Chishti—drawing millions of pilgrims of all religions and walks of life every year.",
-    image: "/images/tour/5.jpg",
+    image: "/images/tour/5.webp",
     topAttractions: [
       { name: "Ajmer Sharif Dargah", desc: "The revered Sufi shrine where soulful live Qawwali devotional music echoes through silver-inlaid marble courtyards." },
       { name: "Adhai Din Ka Jhonpra", desc: "An extraordinary 12th-century monument constructed with arched sandstone screens and intricately carved pillars." },

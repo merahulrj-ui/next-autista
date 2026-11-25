@@ -46,8 +46,8 @@ export default function HomePage() {
     name: "Private Driver India",
     alternateName: "Private Chauffeur Service India",
     url: "https://autistaprivatoindia.it",
-    logo: "https://autistaprivatoindia.it/images/tour/jaipur.jpg",
-    image: "https://autistaprivatoindia.it/images/tour/jaipur.jpg",
+    logo: "https://autistaprivatoindia.it/images/tour/jaipur.webp",
+    image: "https://autistaprivatoindia.it/images/tour/jaipur.webp",
     description:
       "Professional chauffeured car rental service and bespoke private tours across Rajasthan and the Golden Triangle for international travelers.",
     telephone: "+919990648881",
@@ -92,7 +92,7 @@ export default function HomePage() {
         {/* Ultra-HD Royal Rajasthan Hero Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/header-1920x1135-1.jpg"
+            src="/images/header-1920x1135-1.webp"
             alt="Royal palaces of Rajasthan and chauffeured private car rental in India"
             fill
             priority

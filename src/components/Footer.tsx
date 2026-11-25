@@ -10,7 +10,7 @@ export default function Footer() {
     "https://wa.me/919990648881?text=Hello,%20I%20would%20like%20more%20information%20about%20your%20private%20driver%20tours%20in%20India.";
 
   return (
-    <footer className="bg-slate-950 text-slate-300 pt-16 pb-12 border-t border-slate-800">
+    <footer className="bg-slate-950 text-slate-300 pt-16 pb-32 sm:pb-16 border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         {/* Value Proposition Badges */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pb-12 mb-12 border-b border-slate-800/80">
@@ -323,34 +323,39 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Copyright Bar */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400 border-t border-slate-800/80 pt-8 mt-8">
+        {/* Bottom Copyright & Prominent Agency Credits Bar */}
+        <div className="border-t border-slate-800/80 pt-8 mt-8 flex flex-col md:flex-row items-center justify-between gap-5 text-xs text-slate-400">
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center sm:text-left">
             <p>© {new Date().getFullYear()} Private Driver India. All rights reserved.</p>
             <span className="hidden sm:inline text-slate-600">|</span>
-            <p className="text-slate-400">
-              Designed, Engineered &amp; Managed by{" "}
-              <a
-                href="https://www.jayanticybernetics.in/"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Jayanti Cybernetics - Custom Software &amp; Digital Solutions Company in India"
-                className="text-amber-400 hover:text-amber-300 font-semibold transition-colors inline-flex items-center gap-1"
-              >
-                Jayanti Cybernetics
-              </a>
-            </p>
+            <div className="flex items-center gap-4 text-slate-400">
+              <Link href="/cancellation-policy" className="hover:text-slate-300 transition-colors">
+                Privacy &amp; Terms
+              </Link>
+              <Link href="/about-us" className="hover:text-slate-300 transition-colors">
+                About Us
+              </Link>
+              <Link href="/contact" className="hover:text-slate-300 transition-colors">
+                Contact Us
+              </Link>
+            </div>
           </div>
-          <div className="flex items-center gap-6">
-            <Link href="/cancellation-policy" className="hover:text-slate-300 transition-colors">
-              Privacy &amp; Terms
-            </Link>
-            <Link href="/about-us" className="hover:text-slate-300 transition-colors">
-              About Us
-            </Link>
-            <Link href="/contact" className="hover:text-slate-300 transition-colors">
-              Contact Us
-            </Link>
+
+          {/* Prominent High-Visibility Jayanti Cybernetics Badge */}
+          <div className="flex items-center justify-center">
+            <a
+              href="https://www.jayanticybernetics.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Jayanti Cybernetics - Official Custom Software &amp; Digital Solutions Company in India"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 border border-amber-500/40 hover:border-amber-400 text-slate-300 hover:text-white transition-all shadow-md group"
+            >
+              <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+              <span className="text-slate-400 text-[11px]">Architected &amp; Managed by</span>
+              <span className="text-amber-400 font-bold group-hover:text-amber-300 transition-colors tracking-wide">
+                Jayanti Cybernetics
+              </span>
+            </a>
           </div>
         </div>
       </div>

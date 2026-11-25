@@ -21,7 +21,7 @@ export const FLEET: Vehicle[] = [
     capacityPassengers: 3,
     capacityLuggage: "2 Medium Suitcases + 2 Daypacks",
     acType: "Integrated High-Efficiency Digital Air Conditioning",
-    image: "/images/fleet/dzire.jpg",
+    image: "/images/fleet/dzire.webp",
     features: [
       "Whisper-quiet high-capacity air conditioning",
       "Ergonomic reclinable fabric seats with ample knee room",
@@ -40,7 +40,7 @@ export const FLEET: Vehicle[] = [
     capacityPassengers: 5,
     capacityLuggage: "4 Large Hard-Shell Suitcases + 4 Hand Luggage",
     acType: "Independent Dual Front & Rear High-Power Climate Control with Ceiling Vents",
-    image: "/images/fleet/innova-crysta.jpg",
+    image: "/images/fleet/innova-crysta.webp",
     features: [
       "Executive 2nd-row independent plush 'Captain Seats' with armrests",
       "Superior coil-spring suspension calibrated for varied Indian road conditions",
@@ -59,7 +59,7 @@ export const FLEET: Vehicle[] = [
     capacityPassengers: 10,
     capacityLuggage: "10-12 Large Suitcases + Carry-On Bags",
     acType: "Heavy-Duty Central Ducted High-Capacity AC System with Individual Louvers",
-    image: "/images/fleet/tempo-traveller.jpg",
+    image: "/images/fleet/tempo-traveller.webp",
     features: [
       "Individual 1x1 reclinable executive leatherette pushback seats with armrests",
       "Full 6-foot interior ceiling height allowing guests to stand and walk upright",

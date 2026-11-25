@@ -374,11 +374,29 @@ export function AboutUsView() {
                 Digital Architecture &amp; Platform Engineering
               </span>
               <h2 className="text-2xl sm:text-3xl font-serif font-bold text-white">
-                Technology Partner: Engineered &amp; Maintained by Jayanti Cybernetics
+                Technology Partner: Engineered &amp; Maintained by{" "}
+                <a
+                  href="https://www.jayanticybernetics.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Jayanti Cybernetics - Custom Software &amp; Digital Solutions Company in India"
+                  className="text-amber-400 hover:text-amber-300 underline decoration-amber-500/60 underline-offset-4 transition-colors cursor-pointer"
+                >
+                  Jayanti Cybernetics
+                </a>
               </h2>
               <p className="text-slate-300 text-sm sm:text-base leading-relaxed font-light">
                 Autista Privato India&apos;s high-performance web platform, real-time fleet coordination infrastructure, dynamic tour itinerary engine, and secure international guest reservation system are custom-architected, engineered, and maintained by{" "}
-                <strong className="text-white font-semibold">Jayanti Cybernetics</strong>—India&apos;s premier digital engineering and enterprise software firm.
+                <a
+                  href="https://www.jayanticybernetics.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Jayanti Cybernetics - Official Digital Transformation Partner"
+                  className="text-amber-400 hover:text-amber-300 font-bold underline decoration-amber-500/60 underline-offset-4 transition-colors cursor-pointer"
+                >
+                  Jayanti Cybernetics
+                </a>
+                —India&apos;s premier digital engineering and enterprise software firm.
               </p>
               <p className="text-slate-300 text-sm leading-relaxed font-light">
                 Built on modern Next.js static architecture with enterprise-grade encryption and sub-second page delivery, this technological backbone ensures that our global travelers experience 99.99% platform availability, instant WhatsApp concierge synchronization, and seamless mobile trip planning from any timezone.
