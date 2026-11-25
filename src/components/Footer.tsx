@@ -197,7 +197,7 @@ export default function Footer() {
                   href="/tour-packages"
                   className="text-amber-400 font-semibold inline-flex items-center gap-1 hover:underline pt-1"
                 >
-                  View all 23 Tour Packages &rarr;
+                  View all 30 Tour Packages &rarr;
                 </Link>
               </li>
             </ul>
@@ -313,10 +313,10 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Sitewide Comprehensive Directory of all 23 Tours (for SEO internal juice) */}
+        {/* Sitewide Comprehensive Directory of all 30 Tours (for SEO internal juice) */}
         <div className="py-6 border-t border-b border-slate-800/80 my-8">
           <p className="text-[11px] font-semibold uppercase tracking-wider text-slate-400 mb-3">
-            All 23 Tour Packages &amp; Private Chauffeur Itineraries:
+            All 30 Tour Packages &amp; Private Chauffeur Itineraries:
           </p>
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-[11px] text-slate-400">
             {TOURS.map((t) => (
