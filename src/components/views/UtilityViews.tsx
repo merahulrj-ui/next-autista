@@ -650,10 +650,9 @@ export function GenericRegionalTourView({
     description: overview,
     offers: {
       "@type": "Offer",
-      priceCurrency: "EUR",
-      price: "490",
+      description: "Tailor-made private chauffeur itinerary with dedicated English-speaking driver. Inquire directly for a custom all-inclusive quote.",
       availability: "https://schema.org/InStock",
-      url: `https://autistaprivatoindia.it/${slug}.html`,
+      url: `https://autistaprivatoindia.it/${slug}`,
     },
   };
 
