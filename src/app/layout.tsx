@@ -122,6 +122,11 @@ const agencySchema = {
     { "@type": "AdministrativeArea", name: "Himachal Pradesh" },
     { "@type": "AdministrativeArea", name: "Uttarakhand" },
   ],
+  sameAs: [
+    "https://www.tripadvisor.com/Attraction_Review-g304551-d28509247-Reviews-Golden_Triangle_Tour_With_Ranthambore_Autista_Privato_India-New_Delhi_National_C.html",
+    "https://www.facebook.com/profile.php?id=61562343674477",
+    "https://www.instagram.com/autistaprivatoindia",
+  ],
 };
 
 export default function RootLayout({

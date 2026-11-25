@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { Phone, Mail, MapPin, ShieldCheck, HeartHandshake, Clock, Car, Sparkles } from "lucide-react";
+import Image from "next/image";
+import { Phone, Mail, MapPin, ShieldCheck, HeartHandshake, Clock, Car, Sparkles, ExternalLink } from "lucide-react";
 import { TOURS } from "@/data/tours";
 import { DESTINATIONS } from "@/data/destinations";
 
@@ -95,6 +96,44 @@ export default function Footer() {
               <div className="flex items-start gap-2.5 text-slate-400">
                 <MapPin className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
                 <span>C 8/82, 3rd Floor, East Of Kailash, Sriniwaspuri, New Delhi - 110065, India</span>
+              </div>
+
+              {/* Verified TripAdvisor & Social Trust Links */}
+              <div className="pt-3 mt-3 border-t border-slate-800/80 flex flex-wrap items-center gap-2.5">
+                <a
+                  href="https://www.tripadvisor.com/Attraction_Review-g304551-d28509247-Reviews-Golden_Triangle_Tour_With_Ranthambore_Autista_Privato_India-New_Delhi_National_C.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Read Our 5.0 Star Reviews on TripAdvisor"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#00aa6c]/15 hover:bg-[#00aa6c]/25 border border-[#00aa6c]/30 text-white text-[11px] font-semibold transition-all"
+                >
+                  <Image
+                    src="/images/tripad.png"
+                    alt="TripAdvisor"
+                    width={18}
+                    height={18}
+                    className="w-4 h-4 object-contain"
+                  />
+                  <span>TripAdvisor 5.0</span>
+                </a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61562343674477"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Follow Autista Privato India on Facebook"
+                  className="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition-colors text-[11px] font-semibold border border-slate-700/60"
+                >
+                  Facebook
+                </a>
+                <a
+                  href="https://www.instagram.com/autistaprivatoindia"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Follow Autista Privato India on Instagram"
+                  className="px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition-colors text-[11px] font-semibold border border-slate-700/60"
+                >
+                  Instagram
+                </a>
               </div>
             </div>
           </div>
@@ -285,16 +324,31 @@ export default function Footer() {
         </div>
 
         {/* Bottom Copyright Bar */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
-          <p>© {new Date().getFullYear()} Private Driver India. All rights reserved.</p>
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400 border-t border-slate-800/80 pt-8 mt-8">
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center sm:text-left">
+            <p>© {new Date().getFullYear()} Private Driver India. All rights reserved.</p>
+            <span className="hidden sm:inline text-slate-600">|</span>
+            <p className="text-slate-400">
+              Designed, Engineered &amp; Managed by{" "}
+              <a
+                href="https://www.jayanticybernetics.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Jayanti Cybernetics - Custom Software &amp; Digital Solutions Company in India"
+                className="text-amber-400 hover:text-amber-300 font-semibold transition-colors inline-flex items-center gap-1"
+              >
+                Jayanti Cybernetics
+              </a>
+            </p>
+          </div>
           <div className="flex items-center gap-6">
-            <Link href="/cancellation-policy" className="hover:text-slate-300">
+            <Link href="/cancellation-policy" className="hover:text-slate-300 transition-colors">
               Privacy &amp; Terms
             </Link>
-            <Link href="/about-us" className="hover:text-slate-300">
+            <Link href="/about-us" className="hover:text-slate-300 transition-colors">
               About Us
             </Link>
-            <Link href="/contact" className="hover:text-slate-300">
+            <Link href="/contact" className="hover:text-slate-300 transition-colors">
               Contact Us
             </Link>
           </div>

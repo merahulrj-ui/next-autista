@@ -24,6 +24,7 @@ import { BLOGS } from "@/data/blogs";
 import TourCard from "@/components/TourCard";
 import FleetCard from "@/components/FleetCard";
 import InquiryForm from "@/components/InquiryForm";
+import TripAdvisorReviews from "@/components/TripAdvisorReviews";
 
 export const metadata: Metadata = {
   title: "Private Driver India | Luxury Car Rental with Chauffeur in Rajasthan",
@@ -71,6 +72,11 @@ export default function HomePage() {
       bestRating: "5",
       worstRating: "1",
     },
+    sameAs: [
+      "https://www.tripadvisor.com/Attraction_Review-g304551-d28509247-Reviews-Golden_Triangle_Tour_With_Ranthambore_Autista_Privato_India-New_Delhi_National_C.html",
+      "https://www.facebook.com/profile.php?id=61562343674477",
+      "https://www.instagram.com/autistaprivatoindia",
+    ],
   };
 
   return (
@@ -100,9 +106,32 @@ export default function HomePage() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-8 py-24 lg:py-32 flex flex-col justify-between min-h-[88vh]">
           {/* Hero Main Content */}
           <div className="max-w-3xl space-y-6 pt-6">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900/70 border border-amber-400/50 text-amber-300 text-xs font-semibold uppercase tracking-widest backdrop-blur-md shadow-lg">
-              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              <span>Official Private Chauffeur &amp; Car Rental Service in India</span>
+            <div className="flex flex-wrap items-center gap-3">
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900/70 border border-amber-400/50 text-amber-300 text-xs font-semibold uppercase tracking-widest backdrop-blur-md shadow-lg">
+                <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                <span>Official Private Chauffeur &amp; Car Rental Service in India</span>
+              </div>
+              <a
+                href="https://www.tripadvisor.com/Attraction_Review-g304551-d28509247-Reviews-Golden_Triangle_Tour_With_Ranthambore_Autista_Privato_India-New_Delhi_National_C.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="TripAdvisor 5.0 Rating - 348+ Verified Reviews"
+                className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/80 hover:bg-slate-900 border border-[#00aa6c]/50 text-white text-xs font-semibold backdrop-blur-md shadow-lg hover:border-[#00aa6c] transition-all"
+              >
+                <Image
+                  src="/images/tripad.png"
+                  alt="TripAdvisor"
+                  width={18}
+                  height={18}
+                  className="w-4 h-4 object-contain"
+                />
+                <div className="flex items-center gap-0.5">
+                  {[...Array(5)].map((_, i) => (
+                    <span key={i} className="w-2 h-2 rounded-full bg-[#00aa6c] inline-block"></span>
+                  ))}
+                </div>
+                <span className="text-[11px] text-slate-200">5.0 TripAdvisor</span>
+              </a>
             </div>
 
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-serif font-extrabold leading-tight tracking-tight text-white drop-shadow-lg">
@@ -398,6 +427,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* TripAdvisor Verified International Reviews Section */}
+      <TripAdvisorReviews />
 
       {/* Blogs & Cost Guides Section */}
       <section className="py-20 bg-slate-50">
