@@ -18,6 +18,7 @@ import {
   ArrowRight
 } from "lucide-react";
 import { Tour } from "@/data/tours";
+import { getRouteVisualHighlights, getLandmarkForCity } from "@/data/landmarks";
 import InquiryForm from "@/components/InquiryForm";
 
 interface TourDetailViewProps {
@@ -28,6 +29,8 @@ export default function TourDetailView({ tour }: TourDetailViewProps) {
   const whatsappUrl = `https://wa.me/919990648881?text=Hello,%20I%20would%20like%20information%20and%20a%20quote%20for%20the%20tour:%20${encodeURIComponent(
     tour.title
   )}%20(${tour.duration})`;
+
+  const routeVisualHighlights = getRouteVisualHighlights(tour.route);
 
   const touristTripSchema = {
     "@context": "https://schema.org",
@@ -222,26 +225,97 @@ export default function TourDetailView({ tour }: TourDetailViewProps) {
               </p>
 
               <div className="space-y-6 relative before:absolute before:inset-0 before:left-3.5 before:w-0.5 before:bg-slate-200">
-                {tour.itinerary.map((day, idx) => (
-                  <div key={`${day.day}-${idx}`} className="relative pl-10">
-                    <div className="absolute left-0 top-0.5 w-7 h-7 rounded-full bg-slate-900 text-amber-400 font-bold text-xs flex items-center justify-center border-2 border-white shadow-sm">
-                      {day.day}
+                {tour.itinerary.map((day, idx) => {
+                  const dayLandmark = getLandmarkForCity(day.title);
+                  return (
+                    <div key={`${day.day}-${idx}`} className="relative pl-10">
+                      <div className="absolute left-0 top-0.5 w-7 h-7 rounded-full bg-slate-900 text-amber-400 font-bold text-xs flex items-center justify-center border-2 border-white shadow-sm">
+                        {day.day}
+                      </div>
+                      <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/70 hover:border-amber-500/40 transition-colors flex flex-col sm:flex-row gap-4 items-start justify-between">
+                        <div className="flex-1">
+                          <span className="text-[11px] font-bold uppercase tracking-wider text-amber-600 block mb-1">
+                            Day {day.day}
+                          </span>
+                          <h3 className="text-base font-serif font-bold text-slate-900 mb-2">
+                            {day.title}
+                          </h3>
+                          <p className="text-xs text-slate-600 leading-relaxed">
+                            {day.description}
+                          </p>
+                        </div>
+                        {dayLandmark && (
+                          <div className="relative w-full sm:w-28 aspect-16/10 sm:aspect-square rounded-xl overflow-hidden shrink-0 border border-slate-200 shadow-2xs group/thumb">
+                            <Image
+                              src={dayLandmark.image}
+                              alt={dayLandmark.alt}
+                              fill
+                              sizes="(max-width: 640px) 100vw, 112px"
+                              className="object-cover group-hover/thumb:scale-105 transition-transform duration-300"
+                              loading="lazy"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-80" />
+                            <span className="absolute bottom-1.5 left-2 right-2 text-[10px] font-bold text-amber-300 truncate">
+                              {dayLandmark.city}
+                            </span>
+                          </div>
+                        )}
+                      </div>
                     </div>
-                    <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/70 hover:border-amber-500/40 transition-colors">
-                      <span className="text-[11px] font-bold uppercase tracking-wider text-amber-600 block mb-1">
-                        Day {day.day}
-                      </span>
-                      <h3 className="text-base font-serif font-bold text-slate-900 mb-2">
-                        {day.title}
-                      </h3>
-                      <p className="text-xs text-slate-600 leading-relaxed">
-                        {day.description}
-                      </p>
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
+
+            {/* Route Visual Highlights & Landmarks */}
+            {routeVisualHighlights.length > 0 && (
+              <div className="bg-white rounded-3xl p-8 border border-slate-200/90 shadow-sm">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6">
+                  <div>
+                    <h2 className="text-2xl font-serif font-bold text-slate-900 mb-1">
+                      Route Landmarks &amp; Visual Sights
+                    </h2>
+                    <p className="text-xs text-slate-500">
+                      Iconic destinations and private chauffeur experiences on this circuit.
+                    </p>
+                  </div>
+                  <Link
+                    href="/gallery"
+                    className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-600 hover:text-amber-700 transition-colors"
+                  >
+                    <span>View All Travel Photos</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
+                </div>
+
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                  {routeVisualHighlights.map((vh, i) => (
+                    <div
+                      key={i}
+                      className="group relative rounded-2xl overflow-hidden border border-slate-200/80 aspect-4/3 bg-slate-900 shadow-2xs"
+                    >
+                      <Image
+                        src={vh.image}
+                        alt={vh.alt}
+                        fill
+                        sizes="(max-width: 640px) 50vw, 25vw"
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                        loading="lazy"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent" />
+                      <div className="absolute bottom-2.5 left-2.5 right-2.5 text-white">
+                        <span className="text-[10px] uppercase font-bold tracking-wider text-amber-400 block truncate">
+                          {vh.city}
+                        </span>
+                        <span className="text-xs font-serif font-semibold text-white block truncate">
+                          {vh.title}
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* Inclusions & Exclusions */}
             <div className="bg-white rounded-3xl p-8 border border-slate-200/90 shadow-sm">

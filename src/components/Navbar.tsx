@@ -113,6 +113,12 @@ export default function Navbar() {
             About Us
           </Link>
           <Link
+            href="/gallery"
+            className="hover:text-amber-600 transition-colors whitespace-nowrap"
+          >
+            Gallery
+          </Link>
+          <Link
             href="/contact"
             className="hover:text-amber-600 transition-colors whitespace-nowrap"
           >
@@ -196,6 +202,13 @@ export default function Navbar() {
               className="py-1 hover:text-amber-600"
             >
               About Us
+            </Link>
+            <Link
+              href="/gallery"
+              onClick={() => setMobileMenuOpen(false)}
+              className="py-1 hover:text-amber-600"
+            >
+              Gallery
             </Link>
             <Link
               href="/contact"

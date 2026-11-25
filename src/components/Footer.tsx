@@ -269,6 +269,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/gallery"
+                  className="hover:text-amber-400 transition-colors"
+                >
+                  India Photo Gallery &amp; Showcase
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/about-us"
                   className="hover:text-amber-400 transition-colors"
                 >
@@ -334,6 +342,9 @@ export default function Footer() {
               </Link>
               <Link href="/about-us" className="hover:text-slate-300 transition-colors">
                 About Us
+              </Link>
+              <Link href="/gallery" className="hover:text-slate-300 transition-colors">
+                Photo Gallery
               </Link>
               <Link href="/contact" className="hover:text-slate-300 transition-colors">
                 Contact Us
